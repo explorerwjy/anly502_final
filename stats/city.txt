@@ -1,408 +1,1 @@
-"110. Las Vegas"	362.0
-"Ahwatukee Foothills Village"	786.0
-"Ahwatukee"	567.5
-"Allegheny"	263.0
-"Allentown"	377.0
-"Anjou"	647.0
-"Anthem"	486.5
-"Apache Junction"	527.5
-"Arcadia"	666.0
-"Arlington"	962.5
-"Aspinwall"	756.0
-"Avondale"	508.5
-"Baie-D'urfe"	335.0
-"Balerno"	275.0
-"Banksville"	320.0
-"Beaconsfield"	684.5
-"Bellevue"	669.0
-"Bellvue"	720.0
-"Belmont"	489.0
-"Bethel Park"	762.0
-"Black Canyon City"	673.5
-"Blainville"	377.0
-"Blawnox"	1040.0
-"Bloomfield"	1085.0
-"Bocholt"	1227.0
-"Boisbriand"	522.0
-"Bonnyrigg and Lasswade"	657.0
-"Bonnyrigg"	906.5
-"Boucherville"	751.0
-"Boulder City"	586.0
-"Braddock"	661.5
-"Brentwood"	415.0
-"Breslau"	699.0
-"Bridgeville"	525.5
-"Brookline"	656.0
-"Brossard"	565.0
-"Bruchsal"	865.0
-"Bruntsfield"	518.0
-"Buckeye"	513.5
-"Burbank"	1227.0
-"C Las Vegas"	853.0
-"Cambridge"	606.0
-"Carefree"	719.0
-"Carnegie"	593.0
-"Casa Grande"	463.0
-"Castle Shannon"	497.0
-"Cave Creek"	576.5
-"Centennial Hills"	714.0
-"Central City Village"	371.0
-"Central City"	255.0
-"Central Henderson"	787.0
-"Central"	395.0
-"Champaign"	603.0
-"Chandler Heights"	968.5
-"Chandler"	584.5
-"Chandler-Gilbert"	689.0
-"Charlemagne"	747.0
-"Charlotte "	703.0
-"Charlotte"	634.0
-"Chateau"	894.0
-"City Center"	307.0
-"City of Edinburgh"	686.0
-"Clark"	1215.5
-"Clover"	488.0
-"Columbus"	649.0
-"Communaut\u00e9-Urbaine-de-Montr\u00e9al"	584.0
-"Concord Mills"	546.0
-"Concord"	568.5
-"Conestogo"	832.0
-"Coolidge"	503.5
-"Cornwell Development"	202.0
-"Cote Saint-Luc"	474.0
-"Cote-Saint-Luc"	509.0
-"Cottage Grove"	546.5
-"Crafton"	470.0
-"Cramond"	740.0
-"Dalgety Bay"	300.0
-"Dalkeith"	721.5
-"Dallas"	756.0
-"Dane"	448.0
-"De Forest"	488.0
-"DeForest"	704.0
-"Deforest"	516.0
-"Delmont"	158.0
-"Desert Ridge"	470.0
-"Deux-Montagnes Regional County Municipality"	1156.0
-"Deux-Montagnes"	577.0
-"Dollard-Des Ormeaux"	418.0
-"Dollard-Des-Ormeaux"	509.0
-"Dollard-des-Ormeaux"	592.0
-"Dormont"	705.5
-"Dorval"	614.5
-"Downtown"	708.0
-"Dravosburg"	566.5
-"Durmersheim"	1303.0
-"Eagan"	270.0
-"East Liberty"	1109.0
-"East Mesa"	567.0
-"Edgewood"	649.0
-"Edinburgh"	829.5
-"Eggenstein-Leopoldshafen"	767.0
-"El Mirage"	536.0
-"Enterprise"	441.0
-"Estrella Village"	314.0
-"Etna"	1085.0
-"Ettlingen"	863.0
-"Fabreville"	608.0
-"Firth of Forth"	725.0
-"Fitchburg"	632.5
-"Florence"	502.0
-"Forchheim"	635.0
-"Fort Kinnaird"	117.0
-"Fort McDowell"	723.0
-"Fort Mcdowell"	510.0
-"Fort Mill"	548.0
-"Fort mill"	439.0
-"Fountain Hills"	551.5
-"Ft. Mill"	485.0
-"Gila Bend"	457.0
-"Gilbert"	551.5
-"Gilbert, AZ"	1347.0
-"Glasgow"	427.0
-"Glendale Az"	427.0
-"Glendale"	559.0
-"Glibert"	346.0
-"Gold Canyon"	610.0
-"Golden Square Mile"	700.0
-"Goldfield"	704.0
-"Goodyear"	515.5
-"Grand Canyon"	739.0
-"Green Tree"	502.0
-"Green Valley"	1115.0
-"Greenfield Park"	484.5
-"Guadalupe"	541.0
-"Hagenbach"	639.0
-"Harrisburg"	457.0
-"Heidelberg"	604.5
-"Henderson NV"	1149.0
-"Henderson and Las vegas"	289.0
-"Henderson"	619.0
-"Henderston"	493.0
-"Higley"	637.5
-"Homestead"	731.0
-"Huntersville"	592.5
-"Independence"	795.0
-"Indian Land"	642.5
-"Indian Trail"	475.0
-"Ingram"	892.0
-"Inverkeithing"	395.5
-"Jockgrim"	866.0
-"Juniper Green"	614.0
-"Kahnawake"	1160.0
-"Karlsbad"	699.0
-"Karlsruhe"	728.0
-"Kennedy Township"	494.0
-"Kirkland"	511.0
-"Kitchener"	549.5
-"L'\u00cele-Bizard"	410.0
-"L'\u00cele-des-Soeurs"	554.0
-"LAS VEGAS"	1077.5
-"La Paz"	224.0
-"La Prairie"	375.5
-"LaSalle"	951.0
-"Lachine"	566.5
-"Lake Las Vegas"	972.0
-"Lake Wylie"	523.5
-"Las Vegas "	428.0
-"Las Vegas"	672.5
-"Las Vegas, NV"	301.0
-"Lasalle"	492.0
-"Lasswade"	1182.5
-"Laval"	602.5
-"Laveen Village"	258.5
-"Laveen"	557.5
-"Lawrenceville"	818.5
-"Le Sud-Ouest"	696.0
-"Le Vieux-Port"	744.0
-"Leith"	832.5
-"Litchfield Park "	1099.0
-"Litchfield Park"	587.5
-"Loanhead"	715.0
-"Locust"	675.0
-"London"	944.0
-"Longueuil"	487.5
-"Los Angeles"	718.0
-"Lower Lawrenceville"	816.0
-"MMRP"	757.0
-"Madison"	644.0
-"Maricopa AZ"	438.0
-"Maricopa"	499.5
-"Mascouche"	735.0
-"Mathews"	861.0
-"Mattews"	451.0
-"Matthews"	573.5
-"Mc Farland"	526.0
-"Mc Kees Rocks"	518.5
-"McAdenville"	379.0
-"McFarland"	587.0
-"McKees Rocks"	549.5
-"McKeesport"	241.0
-"Mcfarland"	534.0
-"Mckees Rocks"	379.0
-"Mesa "	617.0
-"Mesa AZ"	559.0
-"Mesa"	555.5
-"Metro Phoenix"	364.0
-"Meza"	718.0
-"Middleton"	671.0
-"Midlothian"	801.0
-"Millvale"	729.0
-"Milton Bridge"	216.0
-"Mint Hill"	503.5
-"Mirabel"	1239.0
-"Monona"	603.0
-"Monroe"	500.0
-"Mont-Royal"	500.5
-"Mont\u00e9al"	830.0
-"Montr\u00e9al"	624.6666666666666
-"Montr\u00e9al-Nord"	383.0
-"Montr\u00e9al-Ouest"	416.0
-"Montreal"	632.5
-"Montreal-Est"	689.0
-"Montreal-Nord"	646.5
-"Montreal-Ouest"	836.0
-"Montreal-West"	528.0
-"Morristown"	718.5
-"Mount Holly"	415.0
-"Mount Lebanon"	644.0
-"Mount Royal"	244.0
-"Mount Washington"	523.0
-"Mt Lebanon"	635.5
-"Mt. Oliver Boro"	683.0
-"Munhall"	613.5
-"Musselburgh"	759.0
-"N E Las Vegas"	564.0
-"N Las Vegas"	485.5
-"N W Las Vegas"	668.0
-"N. Las Vegas"	638.0
-"NELLIS AFB"	503.0
-"Nboulder City"	1029.0
-"Nellis AFB"	436.5
-"Nellis Afb"	349.0
-"Nellis Air Force Base"	334.0
-"Neuburg am Rhein"	477.0
-"New Dundee"	731.0
-"New River"	450.5
-"New Town"	779.5
-"Newbridge"	1379.0
-"Newington"	857.0
-"North Carolina"	214.0
-"North Las Vegas "	310.0
-"North Las Vegas"	566.5
-"North Queensferry"	1102.0
-"North Scottsdale"	791.0
-"Oakland"	633.5
-"Old Montreal"	312.0
-"Old Scottsdale"	1264.0
-"Old Town"	746.5
-"Oregon"	231.0
-"Outremont"	533.0
-"Paradise Valley"	722.5
-"Paradise"	536.5
-"Penicuik"	786.0
-"Peoria "	310.0
-"Peoria"	544.5
-"Pfinztal"	812.5
-"Pheonix"	474.0
-"Phoenix "	1076.0
-"Phoenix Metro Area"	384.0
-"Phoenix Sky Harbor Center"	780.0
-"Phoenix"	619.0
-"Phoenix, AZ"	436.0
-"Phoenix-Ahwatukee"	508.0
-"Pierrefonds"	539.5
-"Pineville "	989.0
-"Pineville"	619.5
-"Pittsburg"	670.0
-"Pittsburgh"	692.0
-"Pittsburgh/S. Hills Galleria"	704.0
-"Pittsburgh/Waterfront"	643.0
-"Pittsburrgh"	463.0
-"Pointe Claire"	114.0
-"Pointe-Aux-Trembles"	560.0
-"Pointe-Claire"	597.5
-"Portobello"	958.0
-"Qu\u00e9bec"	382.0
-"Queen Creek"	513.0
-"Queen Valley"	249.0
-"Queensferry"	869.0
-"Rankin"	1337.5
-"Ratho"	799.0
-"Regent Square"	709.0
-"Rheinstetten"	1011.5
-"Rio Verde"	694.0
-"Robinson Township"	229.0
-"Rock Hill"	334.0
-"Rockport"	412.0
-"Roosevelt"	692.0
-"Rosem\u00e8re"	710.5
-"Rosemere"	466.0
-"Roslin"	344.0
-"Roxboro"	520.0
-"Saint Laurent"	486.0
-"Saint Leonard"	251.0
-"Saint-Eustache"	597.0
-"Saint-Henri"	310.0
-"Saint-Hubert"	139.0
-"Saint-Lambert"	397.0
-"Saint-Laurent"	609.5
-"Saint-Leonard"	473.0
-"Saint-laurent"	530.5
-"Sainte-Ann-De-Bellevue"	217.0
-"Sainte-Anne-De-Bellevue"	561.0
-"Sainte-Anne-de-Bellevue"	591.0
-"Sainte-Genevieve"	392.0
-"Sainte-Th\u00e9r\u00e8se"	671.0
-"Sainte-Therese"	539.0
-"San Diego"	844.0
-"San Tan Valley"	452.5
-"Savoy"	582.0
-"Scotesdale"	498.0
-"Scotland"	1037.0
-"Scottdale"	481.0
-"Scottsdale"	633.5
-"Sedona"	596.0
-"Shady Side"	747.0
-"Shadyside"	865.0
-"Sharpsburg"	673.0
-"South Gyle"	845.0
-"South Hills"	582.0
-"South Las Vegas"	737.0
-"South Mountain"	454.0
-"South Queensferry"	837.0
-"Southside Flats"	633.0
-"Spring Valley"	621.5
-"Squirrel Hill"	615.0
-"St Jacobs"	625.0
-"St Leonard"	552.0
-"St-Laurent"	410.0
-"St. Agatha"	990.0
-"St. Jacobs"	669.0
-"Stallings"	473.5
-"Stanfield"	962.0
-"Ste-Rose"	518.0
-"Stockbridge"	1091.0
-"Stoughton"	464.0
-"Stowe Township"	561.0
-"Straiton"	441.0
-"Stutensee"	742.5
-"Stutensee-Blankenloch"	1118.0
-"Summerlin South"	849.0
-"Summerlin"	750.0
-"Sun City Anthem"	445.0
-"Sun City West"	459.5
-"Sun City"	522.5
-"Sun Lakes"	514.0
-"Sun Prairie"	598.5
-"Sunnyslope"	469.0
-"Sunrise"	429.0
-"Surprise Crossing"	429.0
-"Surprise"	536.5
-"Swissvale"	635.0
-"Tega Cay"	505.0
-"Tempe "	622.0
-"Tempe"	608.5
-"Terrebonne"	323.0
-"Tolleson"	476.0
-"Tonopah"	510.0
-"Tonto Basin"	552.0
-"Tortilla Flat"	759.5
-"University"	628.0
-"Upper Saint Clair"	660.0
-"Urbana"	611.0
-"Verdun"	641.5
-"Verona"	594.0
-"Victoria Park"	624.0
-"Vimont"	820.5
-"W Henderson"	733.0
-"W Spring Valley"	788.0
-"W Summerlin"	905.0
-"W\u00f6rth am Rhein"	1718.0
-"Waddell"	432.5
-"Waldbronn"	738.0
-"Water of Leith"	750.0
-"Waterloo"	568.5
-"Waunakee"	538.5
-"Waxhaw"	399.5
-"Weddington"	540.5
-"Weingarten (Baden)"	1427.0
-"Weingarten"	770.5
-"Wesley Chapel"	488.0
-"West Homestead"	615.0
-"West Mifflin"	785.0
-"Westmount"	657.5
-"Westworld Scottsdale"	367.0
-"Whitehall"	927.0
-"Whitney"	719.0
-"Wickenburg"	446.5
-"Wilkinsburg"	570.5
-"Windsor"	490.0
-"Wittmann"	682.0
-"Youngtown"	451.0
-"\u00cele des Soeurs"	1136.0
-"chandler"	361.5
-"glendale"	451.0
-"henderson"	1155.0
-"phoenix"	572.0
-"rankin"	742.0
+110. Las Vegas	362Ahwatukee Foothills Village	786Ahwatukee	567.5Allegheny	263Allentown	377Anjou	647Anthem	486.5Apache Junction	527.5Arcadia	666Arlington	962.5Aspinwall	756Avondale	508.5Baie-D'urfe	335Balerno	275Banksville	320Beaconsfield	684.5Bellevue	669Bellvue	720Belmont	489Bethel Park	762Black Canyon City	673.5Blainville	377Blawnox	1040Bloomfield	1085Bocholt	1227Boisbriand	522Bonnyrigg and Lasswade	657Bonnyrigg	906.5Boucherville	751Boulder City	586Braddock	661.5Brentwood	415Breslau	699Bridgeville	525.5Brookline	656Brossard	565Bruchsal	865Bruntsfield	518Buckeye	513.5Burbank	1227C Las Vegas	853Cambridge	606Carefree	719Carnegie	593Casa Grande	463Castle Shannon	497Cave Creek	576.5Centennial Hills	714Central City Village	371Central City	255Central Henderson	787Central	395Champaign	603Chandler Heights	968.5Chandler	584.5Chandler-Gilbert	689Charlemagne	747Charlotte 	703Charlotte	634Chateau	894City Center	307City of Edinburgh	686Clark	1215.5Clover	488Columbus	649Communaut\u00e9-Urbaine-de-Montr\u00e9al	584Concord Mills	546Concord	568.5Conestogo	832Coolidge	503.5Cornwell Development	202Cote Saint-Luc	474Cote-Saint-Luc	509Cottage Grove	546.5Crafton	470Cramond	740Dalgety Bay	300Dalkeith	721.5Dallas	756Dane	448De Forest	488DeForest	704Deforest	516Delmont	158Desert Ridge	470Deux-Montagnes Regional County Municipality	1156Deux-Montagnes	577Dollard-Des Ormeaux	418Dollard-Des-Ormeaux	509Dollard-des-Ormeaux	592Dormont	705.5Dorval	614.5Downtown	708Dravosburg	566.5Durmersheim	1303Eagan	270East Liberty	1109East Mesa	567Edgewood	649Edinburgh	829.5Eggenstein-Leopoldshafen	767El Mirage	536Enterprise	441Estrella Village	314Etna	1085Ettlingen	863Fabreville	608Firth of Forth	725Fitchburg	632.5Florence	502Forchheim	635Fort Kinnaird	117Fort McDowell	723Fort Mcdowell	510Fort Mill	548Fort mill	439Fountain Hills	551.5Ft. Mill	485Gila Bend	457Gilbert	551.5"Gilbert, AZ"	1347Glasgow	427Glendale Az	427Glendale	559Glibert	346Gold Canyon	610Golden Square Mile	700Goldfield	704Goodyear	515.5Grand Canyon	739Green Tree	502Green Valley	1115Greenfield Park	484.5Guadalupe	541Hagenbach	639Harrisburg	457Heidelberg	604.5Henderson NV	1149Henderson and Las vegas	289Henderson	619Henderston	493Higley	637.5Homestead	731Huntersville	592.5Independence	795Indian Land	642.5Indian Trail	475Ingram	892Inverkeithing	395.5Jockgrim	866Juniper Green	614Kahnawake	1160Karlsbad	699Karlsruhe	728Kennedy Township	494Kirkland	511Kitchener	549.5L'\u00cele-Bizard	410L'\u00cele-des-Soeurs	554LAS VEGAS	1077.5La Paz	224La Prairie	375.5LaSalle	951Lachine	566.5Lake Las Vegas	972Lake Wylie	523.5Las Vegas 	428Las Vegas	672.5"Las Vegas, NV"	301Lasalle	492Lasswade	1182.5Laval	602.5Laveen Village	258.5Laveen	557.5Lawrenceville	818.5Le Sud-Ouest	696Le Vieux-Port	744Leith	832.5Litchfield Park 	1099Litchfield Park	587.5Loanhead	715Locust	675London	944Longueuil	487.5Los Angeles	718Lower Lawrenceville	816MMRP	757Madison	644Maricopa AZ	438Maricopa	499.5Mascouche	735Mathews	861Mattews	451Matthews	573.5Mc Farland	526Mc Kees Rocks	518.5McAdenville	379McFarland	587McKees Rocks	549.5McKeesport	241Mcfarland	534Mckees Rocks	379Mesa 	617Mesa AZ	559Mesa	555.5Metro Phoenix	364Meza	718Middleton	671Midlothian	801Millvale	729Milton Bridge	216Mint Hill	503.5Mirabel	1239Monona	603Monroe	500Mont-Royal	500.5Mont\u00e9al	830Montr\u00e9al	624.6666667Montr\u00e9al-Nord	383Montr\u00e9al-Ouest	416Montreal	632.5Montreal-Est	689Montreal-Nord	646.5Montreal-Ouest	836Montreal-West	528Morristown	718.5Mount Holly	415Mount Lebanon	644Mount Royal	244Mount Washington	523Mt Lebanon	635.5Mt. Oliver Boro	683Munhall	613.5Musselburgh	759N E Las Vegas	564N Las Vegas	485.5N W Las Vegas	668N. Las Vegas	638NELLIS AFB	503Nboulder City	1029Nellis AFB	436.5Nellis Afb	349Nellis Air Force Base	334Neuburg am Rhein	477New Dundee	731New River	450.5New Town	779.5Newbridge	1379Newington	857North Carolina	214North Las Vegas 	310North Las Vegas	566.5North Queensferry	1102North Scottsdale	791Oakland	633.5Old Montreal	312Old Scottsdale	1264Old Town	746.5Oregon	231Outremont	533Paradise Valley	722.5Paradise	536.5Penicuik	786Peoria 	310Peoria	544.5Pfinztal	812.5Pheonix	474Phoenix 	1076Phoenix Metro Area	384Phoenix Sky Harbor Center	780Phoenix	619"Phoenix, AZ"	436Phoenix-Ahwatukee	508Pierrefonds	539.5Pineville 	989Pineville	619.5Pittsburg	670Pittsburgh	692Pittsburgh/S. Hills Galleria	704Pittsburgh/Waterfront	643Pittsburrgh	463Pointe Claire	114Pointe-Aux-Trembles	560Pointe-Claire	597.5Portobello	958Qu\u00e9bec	382Queen Creek	513Queen Valley	249Queensferry	869Rankin	1337.5Ratho	799Regent Square	709Rheinstetten	1011.5Rio Verde	694Robinson Township	229Rock Hill	334Rockport	412Roosevelt	692Rosem\u00e8re	710.5Rosemere	466Roslin	344Roxboro	520Saint Laurent	486Saint Leonard	251Saint-Eustache	597Saint-Henri	310Saint-Hubert	139Saint-Lambert	397Saint-Laurent	609.5Saint-Leonard	473Saint-laurent	530.5Sainte-Ann-De-Bellevue	217Sainte-Anne-De-Bellevue	561Sainte-Anne-de-Bellevue	591Sainte-Genevieve	392Sainte-Th\u00e9r\u00e8se	671Sainte-Therese	539San Diego	844San Tan Valley	452.5Savoy	582Scotesdale	498Scotland	1037Scottdale	481Scottsdale	633.5Sedona	596Shady Side	747Shadyside	865Sharpsburg	673South Gyle	845South Hills	582South Las Vegas	737South Mountain	454South Queensferry	837Southside Flats	633Spring Valley	621.5Squirrel Hill	615St Jacobs	625St Leonard	552St-Laurent	410St. Agatha	990St. Jacobs	669Stallings	473.5Stanfield	962Ste-Rose	518Stockbridge	1091Stoughton	464Stowe Township	561Straiton	441Stutensee	742.5Stutensee-Blankenloch	1118Summerlin South	849Summerlin	750Sun City Anthem	445Sun City West	459.5Sun City	522.5Sun Lakes	514Sun Prairie	598.5Sunnyslope	469Sunrise	429Surprise Crossing	429Surprise	536.5Swissvale	635Tega Cay	505Tempe 	622Tempe	608.5Terrebonne	323Tolleson	476Tonopah	510Tonto Basin	552Tortilla Flat	759.5University	628Upper Saint Clair	660Urbana	611Verdun	641.5Verona	594Victoria Park	624Vimont	820.5W Henderson	733W Spring Valley	788W Summerlin	905W\u00f6rth am Rhein	1718Waddell	432.5Waldbronn	738Water of Leith	750Waterloo	568.5Waunakee	538.5Waxhaw	399.5Weddington	540.5Weingarten (Baden)	1427Weingarten	770.5Wesley Chapel	488West Homestead	615West Mifflin	785Westmount	657.5Westworld Scottsdale	367Whitehall	927Whitney	719Wickenburg	446.5Wilkinsburg	570.5Windsor	490Wittmann	682Youngtown	451\u00cele des Soeurs	1136chandler	361.5glendale	451henderson	1155phoenix	572rankin	742
