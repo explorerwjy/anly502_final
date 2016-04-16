@@ -112,49 +112,40 @@ class CategoryPredictor(MRJob):
         """
         raw_count = {}
 
-        # sum up the individual counts
         for word_count in counts:
             for word, count in word_count.iteritems():
                 raw_count[word] = raw_count.get(word, 0) + count
 
-        # don't filter out low-mass categories
         if category == 'all':
             yield category, raw_count
             return
 
-        # filter out low-count words; assign a very low mass to
-        # unknown words
         filtered_counts = {}
         for word, count in raw_count.iteritems():
             if count > MINIMUM_OCCURENCES:
                 filtered_counts[word] = count
 
-        # don't include categories with every word filtered out
         if not filtered_counts:
             return
 
-        # Assign a small mass to unknown tokens - check out
-        # http://en.wikipedia.org/wiki/Laplacian_smoothing for background.
         filtered_counts['UNK'] = 0.01
 
-        # emit the result
         yield category, filtered_counts
-"""
+        
+        
     def steps(self):
-        return [self.mr(mapper=self.review_category_mapper, 
+        return [
+            MRStep(mapper=self.review_category_mapper, 
                 reducer=self.add_categories_to_reviews_reducer),
-            self.mr(mapper=self.tokenize_reviews_mapper, 
+            MRStep(mapper=self.tokenize_reviews_mapper, 
                 reducer=self.sum_counts)] 
-    
 """
-
     def steps(self):
         return [
             MRStep(mapper=self.review_category_mapper,
                    reducer=self.add_categories_to_reviews_reducer),
-    
             MRStep(mapper=self.tokenize_reviews_mapper,
                    reducer=self.sum_counts)]
-
+"""
 if __name__ == "__main__":
     CategoryPredictor.run()
