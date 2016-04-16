@@ -1,0 +1,13 @@
+"110. Las Vegas"	362.0
+"Ahwatukee Foothills Village"	786.0
+"Ahwatukee"	567.5
+"Allegheny"	263.0
+"Allentown"	377.0
+"Anjou"	647.0
+"Anthem"	486.5
+"Apache Junction"	527.5
+"Arcadia"	666.0
+"Arlington"	962.5
+"Aspinwall"	756.0
+"Avondale"	508.5
+"Baie-D'urfe"	335.0

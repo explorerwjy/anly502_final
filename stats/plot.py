@@ -10,7 +10,7 @@ if __name__ == "__main__":
         x = vals[0]
         y = vals[1]
         xx.append(x)
-        yy.append(int(y))
+        yy.append(float(y))
         
         
     count = len(xx)
