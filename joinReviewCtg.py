@@ -43,12 +43,22 @@ class businessReviewJoin(MRJob):
             
     def tally_mapper (self, key, values):
         for item in key:
-            yield item, (1,len(values))
+            yield item, len(values)
     def tally_combiner(self, key, values):
-        yield key, (1,float(sum(values[1])/sum(values[0])))
-        
+        count = 0
+        total = 0
+        for value in values:
+            count += 1
+            total += value
+        yield key, float(total/count)        
+
     def tally_reducer(self, key, values):
-        yield key, float(sum(values[1])/sum(values[0]))
+        count = 0
+        total = 0
+        for value in values:
+            count += 1
+            total += value
+        yield key, float(total/count)        
         
         
     def steps(self):

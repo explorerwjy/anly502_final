@@ -38,7 +38,7 @@ class businessReviewJoin(MRJob):
                 self.increment_counter('Warning','No City Found',1)
                 continue
             self.increment_counter('Status','City Found',1)
-            yield city, v[1:]
+            yield city, v[1]
             
             
     def tally_mapper (self, key, values):
