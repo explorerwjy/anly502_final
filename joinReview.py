@@ -44,10 +44,10 @@ class businessReviewJoin(MRJob):
     def tally_mapper (self, key, values):
         yield key , (1,len(values))
     def tally_combiner(self, key, values):
-        yield key, (1,float(sum(v[1])/sum(v[0])))
+        yield key, (1,float(sum(values[1])/sum(values[0])))
         
     def tally_reducer(self, key, values):
-        yield key, float(sum(v[1])/sum(v[0]))
+        yield key, float(sum(values[1])/sum(values[0]))
         
         
     def steps(self):
