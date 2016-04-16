@@ -24,16 +24,15 @@ def group_by_city(data):
     return top_10_city
 
 def group_by_city_cat(data,city):
-    print data.take(10)
-    print data.map(lambda x:x["city"]).take(10)
     city_data = data.filter(lambda x: x["city"].encode('utf-8').strip() == city)
-    print city_data.map(lambda x: x["city"]).take(10)
+    #print city_data.map(lambda x: x["city"]).take(10)
     count_by_cat = city_data.map(lambda x: (x["categories"],1))
+    
     pairs1 = count_by_cat.reduceByKey(lambda x,y : x+y)
     pairs2 = pairs1.map(lambda x: (x[1],x[0])).sortByKey(False).map(lambda x: (x[1].encode('utf-8').strip(),x[0]))
     counts = pairs2.collect()
     
-    file_path = 'city_'+'_'.join(city.split())+'txt'
+    file_path = 'city_'+'_'.join(city.split())+'.txt'
     with open(file_path,'w') as fout:
         for (cat,count) in counts:
             fout.write("{}\t{}\n".format(cat,count))
