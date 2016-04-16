@@ -1,0 +1,889 @@
+"ATV Rentals/Tours"	740.0
+"Accessories"	615.0
+"Accountants"	506.0
+"Active Life"	683.6666666666666
+"Acupuncture"	596.5
+"Adult Education"	863.0
+"Adult Entertainment"	767.5
+"Adult"	601.0
+"Advertising"	547.5
+"Afghan"	538.0
+"African"	797.5
+"Airlines"	815.0
+"Airport Lounges"	615.5
+"Airport Shuttles"	627.0
+"Airports"	554.0
+"Allergists"	733.0
+"Alsatian"	725.5
+"Amateur Sports Teams"	773.0
+"American (New)"	683.5
+"American (Traditional)"	567.3333333333334
+"Amusement Parks"	753.5
+"Anesthesiologists"	956.5
+"Animal Shelters"	993.5
+"Antiques"	600.0
+"Apartments"	1055.5
+"Appliances & Repair"	636.5
+"Appliances"	718.0
+"Appraisal Services"	546.0
+"Aquarium Services"	522.5
+"Aquariums"	733.5
+"Arabian"	553.0
+"Arcades"	711.5
+"Archery"	631.0
+"Architects"	713.5
+"Argentine"	653.5
+"Armenian"	672.0
+"Art Classes"	667.5
+"Art Galleries"	655.5
+"Art Restoration"	842.0
+"Art Schools"	697.5
+"Art Supplies"	577.0
+"Art Tours"	941.0
+"Arts & Crafts"	569.0
+"Arts & Entertainment"	817.0
+"Asian Fusion"	637.5
+"Assisted Living Facilities"	629.0
+"Auction Houses"	557.0
+"Audiologist"	994.0
+"Australian"	617.0
+"Austrian"	679.5
+"Auto Customization"	512.0
+"Auto Detailing"	576.5
+"Auto Glass Services"	527.5
+"Auto Insurance"	507.0
+"Auto Loan Providers"	694.0
+"Auto Parts & Supplies"	628.0
+"Auto Repair"	648.0
+"Automotive"	614.5
+"Baby Gear & Furniture"	654.5
+"Backshop"	276.0
+"Baden"	1116.0
+"Bagels"	522.5
+"Bail Bondsmen"	554.0
+"Bakeries"	599.5
+"Bangladeshi"	665.0
+"Bankruptcy Law"	509.5
+"Banks & Credit Unions"	559.5
+"Barbeque"	588.0
+"Barbers"	410.6666666666667
+"Barre Classes"	772.5
+"Bars"	651.0
+"Bartenders"	693.0
+"Bartending Schools"	532.5
+"Basketball Courts"	703.0
+"Basque"	815.5
+"Battery Stores"	461.5
+"Batting Cages"	380.0
+"Bavarian"	534.0
+"Beaches"	730.5
+"Beauty & Spas"	576.0
+"Bed & Breakfast"	984.5
+"Beer Bar"	540.5
+"Beer Garden"	842.0
+"Beer Gardens"	627.0
+"Beer Hall"	1262.0
+"Beer, Wine & Spirits"	630.0
+"Belgian"	695.5
+"Bespoke Clothing"	543.5
+"Beverage Store"	503.0
+"Bike Rentals"	624.0
+"Bike Repair/Maintenance"	603.0
+"Bike Sharing"	1106.0
+"Bikes"	651.0
+"Bingo Halls"	734.5
+"Bistros"	788.5
+"Blood & Plasma Donation Centers"	682.5
+"Blow Dry/Out Services"	591.0
+"Boat Charters"	755.5
+"Boat Dealers"	462.0
+"Boat Repair"	571.0
+"Boating"	675.5
+"Body Shops"	644.5
+"Books, Mags, Music & Video"	624.3333333333334
+"Bookstores"	631.5
+"Boot Camps"	704.5
+"Botanical Gardens"	672.0
+"Bowling"	698.0
+"Boxing"	629.0
+"Brasseries"	784.0
+"Brazilian"	761.5
+"Breakfast & Brunch"	599.5
+"Breweries"	609.5
+"Brewing Supplies"	566.5
+"Bridal"	866.0
+"British"	733.5
+"Bubble Tea"	455.6666666666667
+"Buddhist Temples"	701.0
+"Buffets"	680.0
+"Building Supplies"	647.0
+"Burgers"	602.0
+"Burmese"	778.5
+"Bus Tours"	418.0
+"Buses"	733.5
+"Business Consulting"	466.5
+"Business Law"	476.5
+"Butcher"	606.5
+"CPR Classes"	523.0
+"CSA"	701.0
+"Cabaret"	556.5
+"Cabinetry"	655.5
+"Cafes"	585.5
+"Cafeteria"	575.0
+"Cajun/Creole"	674.0
+"Cambodian"	707.0
+"Campgrounds"	675.0
+"Canadian (New)"	706.5
+"Candy Stores"	583.5
+"Cannabis Clinics"	469.0
+"Cantonese"	614.0
+"Car Dealers"	802.5
+"Car Rental"	604.6666666666666
+"Car Share Services"	603.5
+"Car Stereo Installation"	615.5
+"Car Wash"	580.0
+"Cardio Classes"	1170.0
+"Cardiologists"	711.5
+"Cards & Stationery"	613.0
+"Career Counseling"	697.0
+"Caribbean"	687.0
+"Caricatures"	492.0
+"Carpenters"	410.0
+"Carpet Cleaning"	491.5
+"Carpet Installation"	710.5
+"Carpeting"	610.5
+"Casinos"	866.6666666666666
+"Castles"	544.0
+"Caterers"	614.5
+"Challenge Courses"	636.5
+"Champagne Bars"	780.5
+"Check Cashing/Pay-day Loans"	396.0
+"Cheese Shops"	627.5
+"Cheesesteaks"	596.0
+"Chicken Shop"	594.5
+"Chicken Wings"	551.0
+"Child Care & Day Care"	786.0
+"Childbirth Education"	846.0
+"Childproofing"	556.0
+"Children's Clothing"	623.5
+"Chimney Sweeps"	422.0
+"Chinese"	556.0
+"Chiropractors"	540.0
+"Chocolatiers & Shops"	654.0
+"Choirs"	585.0
+"Christmas Markets"	737.0
+"Christmas Trees"	699.0
+"Churches"	597.5
+"Cinema"	652.0
+"Climbing"	821.0
+"Clowns"	830.5
+"Cocktail Bars"	670.5
+"Coffee & Tea Supplies"	590.0
+"Coffee & Tea"	502.0
+"Coffeeshops"	405.5
+"College Counseling"	462.0
+"Colleges & Universities"	819.5
+"Colombian"	584.5
+"Colonics"	636.5
+"Comedy Clubs"	677.5
+"Comfort Food"	598.0
+"Comic Books"	613.0
+"Commercial Real Estate"	707.0
+"Community Centers"	758.0
+"Community Gardens"	700.0
+"Community Service/Non-Profit"	688.5
+"Computers"	716.0
+"Concept Shops"	536.0
+"Contractors"	657.0
+"Convenience Stores"	515.0
+"Cooking Classes"	658.5
+"Cooking Schools"	917.5
+"Cosmetic Dentists"	646.0
+"Cosmetic Surgeons"	698.5
+"Cosmetics & Beauty Supply"	619.5
+"Cosmetology Schools"	785.5
+"Costumes"	622.5
+"Counseling & Mental Health"	807.0
+"Countertop Installation"	1064.5
+"Country Clubs"	584.0
+"Country Dance Halls"	619.5
+"Couriers & Delivery Services"	670.0
+"Courthouses"	809.0
+"Creperies"	556.0
+"Criminal Defense Law"	549.5
+"Cuban"	672.0
+"Cultural Center"	725.5
+"Cupcakes"	601.0
+"Currency Exchange"	467.0
+"Curry Sausage"	529.0
+"Customized Merchandise"	572.0
+"Cycling Classes"	682.5
+"Czech"	745.0
+"DJs"	601.5
+"DUI Law"	542.0
+"Damage Restoration"	529.0
+"Dance Clubs"	773.5
+"Dance Schools"	670.0
+"Dance Studios"	619.5
+"Data Recovery"	485.0
+"Day Camps"	350.0
+"Day Spas"	759.5
+"Debt Relief Services"	588.0
+"Delicatessen"	772.0
+"Delis"	547.0
+"Demolition Services"	423.5
+"Dentists"	643.0
+"Department Stores"	623.6666666666666
+"Departments of Motor Vehicles"	634.5
+"Dermatologists"	730.0
+"Desserts"	609.0
+"Diagnostic Imaging"	684.5
+"Diagnostic Services"	661.5
+"Dialysis Clinics"	923.0
+"Dim Sum"	664.5
+"Diners"	588.5
+"Disc Golf"	645.5
+"Discount Store"	578.0
+"Distilleries"	611.5
+"Dive Bars"	578.0
+"Dive Shops"	510.0
+"Diving"	724.5
+"Divorce & Family Law"	615.0
+"Do-It-Yourself Food"	591.5
+"Doctors"	742.0
+"Dog Parks"	649.0
+"Dog Walkers"	586.0
+"Dominican"	465.5
+"Donairs"	423.0
+"Donuts"	500.5
+"Door Sales/Installation"	629.0
+"Doulas"	842.5
+"Driving Schools"	877.0
+"Drugstores"	564.5
+"Dry Cleaning & Laundry"	540.0
+"Drywall Installation & Repair"	498.5
+"Ear Nose & Throat"	825.0
+"Editorial Services"	523.0
+"Education"	769.0
+"Educational Services"	784.5
+"Egyptian"	542.0
+"Electricians"	561.0
+"Electronics Repair"	462.5
+"Electronics"	710.5
+"Elementary Schools"	745.5
+"Embroidery & Crochet"	464.5
+"Emergency Rooms"	841.0
+"Empanadas"	568.5
+"Employment Agencies"	618.5
+"Employment Law"	604.5
+"Endocrinologists"	899.5
+"Endodontists"	620.5
+"Engraving"	477.5
+"Escape Games"	600.3333333333334
+"Estate Liquidation"	698.5
+"Estate Planning Law"	539.0
+"Ethiopian"	732.0
+"Ethnic Food"	599.0
+"Ethnic Grocery"	673.5
+"Event Photography"	597.0
+"Event Planning & Services"	833.0
+"Eyelash Service"	526.5
+"Eyewear & Opticians"	632.5
+"Fabric Stores"	658.0
+"Face Painting"	434.0
+"Falafel"	410.0
+"Family Practice"	725.0
+"Farm Equipment Repair"	653.0
+"Farmers Market"	652.5
+"Farming Equipment"	734.0
+"Fashion"	619.0
+"Fast Food"	496.0
+"Fences & Gates"	631.5
+"Ferries"	874.0
+"Fertility"	992.5
+"Festivals"	1088.5
+"Filipino"	629.5
+"Financial Advising"	553.0
+"Financial Services"	557.0
+"Fire Departments"	746.0
+"Fire Protection Services"	424.0
+"Firearm Training"	622.0
+"Fireplace Services"	597.5
+"Firewood"	324.0
+"Fireworks"	474.0
+"First Aid Classes"	498.5
+"Fish & Chips"	575.0
+"Fishing"	538.0
+"Fitness & Instruction"	686.6666666666666
+"Fitness/Exercise Equipment"	749.5
+"Flea Markets"	663.5
+"Flight Instruction"	661.0
+"Flooring"	726.5
+"Florists"	579.0
+"Flowers & Gifts"	597.5
+"Flowers"	759.0
+"Fondue"	771.0
+"Food Banks"	891.5
+"Food Court"	674.5
+"Food Delivery Services"	669.5
+"Food Stands"	634.0
+"Food Tours"	853.0
+"Food Trucks"	513.3333333333334
+"Food"	530.0
+"Formal Wear"	737.5
+"Framing"	540.5
+"French"	804.0
+"Fruits & Veggies"	600.0
+"Funeral Services & Cemeteries"	820.0
+"Furniture Assembly"	659.5
+"Furniture Repair"	640.5
+"Furniture Reupholstery"	553.0
+"Furniture Stores"	717.5
+"Garage Door Services"	529.0
+"Gardeners"	602.0
+"Gas & Service Stations"	474.0
+"Gastroenterologist"	736.5
+"Gastropubs"	717.0
+"Gay Bars"	620.0
+"Gelato"	536.5
+"General Dentistry"	642.0
+"General Festivals"	705.0
+"General Litigation"	490.0
+"German"	716.5
+"Gerontologists"	705.0
+"Gift Shops"	617.0
+"Glass & Mirrors"	569.5
+"Gluten-Free"	604.5
+"Go Karts"	649.0
+"Gold Buyers"	450.5
+"Golf Equipment Shops"	508.0
+"Golf Equipment"	567.5
+"Golf Lessons"	646.5
+"Golf"	659.0
+"Graphic Design"	463.0
+"Greek"	534.5
+"Grocery"	626.0
+"Guest Houses"	1034.0
+"Guitar Stores"	725.5
+"Gun/Rifle Ranges"	666.5
+"Guns & Ammo"	611.5
+"Gutter Services"	518.0
+"Gymnastics"	608.0
+"Gyms"	740.5
+"Hair Extensions"	570.5
+"Hair Loss Centers"	552.0
+"Hair Removal"	518.5
+"Hair Salons"	617.5
+"Hair Stylists"	513.5
+"Haitian"	568.0
+"Halal"	520.5
+"Handyman"	516.0
+"Hang Gliding"	662.0
+"Hardware Stores"	613.5
+"Hats"	511.5
+"Hawaiian"	565.0
+"Head Shops"	427.0
+"Health & Medical"	676.0
+"Health Markets"	632.0
+"Health Retreats"	742.0
+"Hearing Aid Providers"	752.0
+"Heating & Air Conditioning/HVAC"	578.0
+"Henna Artists"	367.0
+"Herbs & Spices"	638.5
+"High Fidelity Audio Equipment"	599.5
+"Hiking"	748.5
+"Himalayan/Nepalese"	563.5
+"Hindu Temples"	373.5
+"Historical Tours"	594.0
+"Hobby Shops"	598.0
+"Home & Garden"	664.0
+"Home & Rental Insurance"	273.5
+"Home Automation"	545.5
+"Home Cleaning"	602.0
+"Home Decor"	665.0
+"Home Health Care"	690.5
+"Home Inspectors"	603.5
+"Home Organization"	646.0
+"Home Services"	560.6666666666666
+"Home Staging"	811.0
+"Home Theatre Installation"	563.0
+"Home Window Tinting"	495.0
+"Hookah Bars"	581.5
+"Horse Boarding"	516.5
+"Horse Equipment Shops"	461.0
+"Horse Racing"	844.5
+"Horseback Riding"	694.5
+"Hospice"	1319.0
+"Hospitals"	875.5
+"Hostels"	973.5
+"Hot Air Balloons"	723.0
+"Hot Dogs"	566.0
+"Hot Pot"	667.5
+"Hot Tub & Pool"	576.5
+"Hotels & Travel"	828.3333333333334
+"Hotels"	863.3333333333334
+"House Sitters"	584.0
+"Hungarian"	1061.5
+"Hypnosis/Hypnotherapy"	548.5
+"IP & Internet Law"	450.0
+"IT Services & Computer Repair"	512.0
+"Iberian"	309.0
+"Ice Cream & Frozen Yogurt"	438.6666666666667
+"Immigration Law"	477.5
+"Indian"	581.0
+"Indonesian"	643.0
+"Insulation Installation"	671.5
+"Insurance"	568.0
+"Interior Design"	618.0
+"Internal Medicine"	710.0
+"International"	1337.0
+"Internet Cafes"	506.0
+"Internet Service Providers"	792.5
+"Investing"	569.5
+"Irish Pub"	597.5
+"Irish"	622.0
+"Irrigation"	596.0
+"Italian"	661.0
+"Japanese"	586.3333333333334
+"Jazz & Blues"	708.5
+"Jet Skis"	824.5
+"Jewelry Repair"	516.5
+"Jewelry"	624.5
+"Juice Bars & Smoothies"	537.5
+"Junk Removal & Hauling"	516.5
+"Karaoke"	595.5
+"Kebab"	427.5
+"Keys & Locksmiths"	386.3333333333333
+"Kids Activities"	621.5
+"Kitchen & Bath"	663.0
+"Kitchen Incubators"	505.0
+"Knife Sharpening"	584.5
+"Knitting Supplies"	649.0
+"Korean"	604.0
+"Kosher"	545.5
+"Laboratory Testing"	605.5
+"Lactation Services"	732.5
+"Lakes"	642.0
+"Landmarks & Historical Buildings"	597.0
+"Landscape Architects"	726.0
+"Landscaping"	632.5
+"Language Schools"	746.5
+"Laotian"	539.0
+"Laser Eye Surgery/Lasik"	780.5
+"Laser Hair Removal"	593.5
+"Laser Tag"	770.5
+"Latin American"	662.5
+"Lawyers"	535.5
+"Leather Goods"	619.5
+"Lebanese"	571.0
+"Legal Services"	483.5
+"Leisure Centers"	881.0
+"Libraries"	698.5
+"Lice Services"	595.0
+"Life Coach"	589.5
+"Life Insurance"	364.5
+"Lighting Fixtures & Equipment"	617.0
+"Limos"	614.0
+"Lingerie"	538.0
+"Live/Raw Food"	613.0
+"Livestock Feed & Supply"	502.0
+"Local Flavor"	737.5
+"Local Services"	651.6666666666666
+"Lounges"	694.0
+"Luggage"	671.6666666666666
+"Macarons"	520.0
+"Machine & Tool Rental"	375.5
+"Magicians"	641.0
+"Mailbox Centers"	389.0
+"Makeup Artists"	638.5
+"Malaysian"	672.5
+"Marinas"	638.0
+"Marketing"	492.0
+"Martial Arts"	647.0
+"Masonry/Concrete"	697.0
+"Mass Media"	608.0
+"Massage Schools"	839.0
+"Massage Therapy"	542.5
+"Massage"	659.3333333333334
+"Matchmakers"	811.5
+"Maternity Wear"	601.5
+"Mattresses"	726.5
+"Meat Shops"	593.5
+"Medical Centers"	761.0
+"Medical Spas"	611.5
+"Medical Supplies"	534.5
+"Medical Transportation"	659.0
+"Meditation Centers"	785.5
+"Mediterranean"	583.0
+"Men's Clothing"	630.5
+"Men's Hair Salons"	490.5
+"Metal Fabricators"	607.5
+"Mexican"	556.0
+"Middle Eastern"	559.5
+"Middle Schools & High Schools"	749.5
+"Midwives"	940.0
+"Mini Golf"	643.5
+"Mobile Dent Repair"	391.0
+"Mobile Phone Accessories"	525.0
+"Mobile Phone Repair"	429.5
+"Mobile Phones"	681.0
+"Modern European"	868.0
+"Mongolian"	673.5
+"Moroccan"	684.5
+"Mortgage Brokers"	564.5
+"Mosques"	209.0
+"Motorcycle Dealers"	616.0
+"Motorcycle Gear"	515.5
+"Motorcycle Rental"	480.0
+"Motorcycle Repair"	570.5
+"Mountain Biking"	636.5
+"Movers"	684.0
+"Museums"	726.5
+"Music & DVDs"	650.6666666666666
+"Music Production Services"	387.0
+"Music Venues"	725.5
+"Musical Instrument Services"	670.0
+"Musical Instruments & Teachers"	637.5
+"Musicians"	673.5
+"Nail Salons"	533.5
+"Nanny Services"	530.0
+"Naturopathic/Holistic"	653.5
+"Neurologist"	828.5
+"Newspapers & Magazines"	640.0
+"Nightlife"	663.0
+"Notaries"	448.6666666666667
+"Nurse Practitioner"	847.0
+"Nurseries & Gardening"	653.0
+"Nursing Schools"	890.0
+"Nutritionists"	606.0
+"Observatories"	546.0
+"Obstetricians & Gynecologists"	857.5
+"Occupational Therapy"	751.0
+"Office Cleaning"	538.0
+"Office Equipment"	545.5
+"Officiants"	749.5
+"Oil Change Stations"	588.0
+"Oncologist"	1016.0
+"Opera & Ballet"	851.5
+"Ophthalmologists"	779.5
+"Optometrists"	636.5
+"Oral Surgeons"	670.0
+"Organic Stores"	645.5
+"Oriental"	234.0
+"Orthodontists"	672.5
+"Orthopedists"	797.0
+"Orthotics"	702.0
+"Osteopathic Physicians"	967.5
+"Outdoor Gear"	660.5
+"Outlet Stores"	586.0
+"Oxygen Bars"	944.0
+"Paddleboarding"	496.5
+"Paint & Sip"	665.0
+"Paint Stores"	670.5
+"Paintball"	671.5
+"Painters"	590.5
+"Pakistani"	593.5
+"Parenting Classes"	754.0
+"Parking"	638.5
+"Parks"	650.5
+"Party & Event Planning"	638.5
+"Party Bike Rentals"	484.0
+"Party Bus Rentals"	783.5
+"Party Equipment Rentals"	538.5
+"Party Supplies"	542.5
+"Pasta Shops"	546.5
+"Patisserie/Cake Shop"	833.0
+"Pawn Shops"	561.0
+"Payroll Services"	455.5
+"Pediatric Dentists"	606.0
+"Pediatricians"	750.0
+"Pedicabs"	810.5
+"Performing Arts"	685.0
+"Periodontists"	720.5
+"Permanent Makeup"	565.5
+"Persian/Iranian"	537.0
+"Personal Assistants"	550.0
+"Personal Chefs"	570.0
+"Personal Injury Law"	536.5
+"Personal Shopping"	613.0
+"Peruvian"	625.5
+"Pest Control"	545.5
+"Pet Adoption"	707.5
+"Pet Boarding/Pet Sitting"	718.3333333333334
+"Pet Groomers"	625.0
+"Pet Services"	674.6666666666666
+"Pet Stores"	654.0
+"Pet Training"	723.0
+"Pets"	699.6666666666666
+"Pharmacy"	539.5
+"Photo Booth Rentals"	554.5
+"Photographers"	681.0
+"Photography Stores & Services"	678.5
+"Physical Therapy"	675.0
+"Piano Bars"	631.5
+"Piano Services"	481.0
+"Piano Stores"	604.0
+"Piercing"	572.5
+"Pilates"	717.0
+"Pita"	372.0
+"Pizza"	568.5
+"Planetarium"	1025.5
+"Playgrounds"	603.0
+"Plumbing"	566.5
+"Plus Size Fashion"	463.5
+"Podiatrists"	713.0
+"Pole Dancing Classes"	624.0
+"Police Departments"	746.0
+"Polish"	682.0
+"Pool & Billiards"	563.0
+"Pool & Hot Tub Service"	651.5
+"Pool Cleaners"	456.6666666666667
+"Pool Halls"	594.0
+"Pop-up Shops"	820.0
+"Popcorn Shops"	530.0
+"Portuguese"	618.0
+"Post Offices"	576.5
+"Poutineries"	564.6666666666666
+"Powder Coating"	366.5
+"Preschools"	822.5
+"Pressure Washers"	470.0
+"Pretzels"	365.5
+"Print Media"	631.5
+"Printing Services"	478.3333333333333
+"Private Investigation"	320.5
+"Private Tutors"	590.0
+"Proctologists"	497.5
+"Professional Services"	616.0
+"Professional Sports Teams"	718.0
+"Propane"	559.5
+"Property Management"	886.5
+"Prosthetics"	752.0
+"Psychiatrists"	1075.5
+"Psychics & Astrologers"	578.0
+"Psychologists"	412.0
+"Pub Food"	607.0
+"Public Plazas"	1265.5
+"Public Relations"	268.0
+"Public Services & Government"	650.5
+"Public Transportation"	812.5
+"Pubs"	630.5
+"Puerto Rican"	473.5
+"Pulmonologist"	843.0
+"Pumpkin Patches"	391.0
+"RV Dealers"	784.5
+"RV Parks"	698.0
+"RV Rental"	1163.5
+"RV Repair"	787.0
+"Race Tracks"	788.0
+"Races & Competitions"	1419.0
+"Radio Stations"	553.0
+"Radiologists"	695.5
+"Rafting/Kayaking"	851.5
+"Ramen"	652.0
+"Real Estate Agents"	665.5
+"Real Estate Law"	494.0
+"Real Estate Services"	729.0
+"Real Estate"	907.0
+"Recording & Rehearsal Studios"	641.5
+"Recreation Centers"	649.0
+"Recycling Center"	505.5
+"Refinishing Services"	554.0
+"Reflexology"	576.0
+"Registration Services"	378.5
+"Rehabilitation Center"	753.0
+"Reiki"	534.0
+"Religious Organizations"	593.5
+"Religious Schools"	499.0
+"Resorts"	923.5
+"Rest Stops"	455.0
+"Restaurants"	613.3333333333334
+"Retirement Homes"	800.0
+"Rheumatologists"	1389.0
+"Rhinelandian"	1138.0
+"Rock Climbing"	637.5
+"Rolfing"	441.5
+"Roofing"	723.5
+"Rugs"	704.5
+"Russian"	617.0
+"Salad"	571.0
+"Salvadoran"	553.0
+"Sandwiches"	560.0
+"Saunas"	989.5
+"Scandinavian"	783.0
+"Scottish"	955.5
+"Screen Printing"	537.5
+"Screen Printing/T-Shirt Printing"	489.0
+"Scuba Diving"	741.0
+"Seafood Markets"	645.5
+"Seafood"	690.5
+"Security Services"	505.0
+"Security Systems"	680.0
+"Self Storage"	594.0
+"Septic Services"	431.5
+"Serbo Croatian"	792.5
+"Session Photography"	631.5
+"Sewing & Alterations"	675.0
+"Shades & Blinds"	556.5
+"Shanghainese"	888.5
+"Shared Office Spaces"	543.0
+"Shaved Ice"	521.5
+"Shipping Centers"	511.0
+"Shoe Repair"	538.5
+"Shoe Stores"	690.0
+"Shopping Centers"	609.5
+"Shopping"	674.3333333333334
+"Shredding Services"	481.0
+"Shutters"	727.5
+"Signmaking"	582.0
+"Singaporean"	748.5
+"Skate Parks"	438.5
+"Skate Shops"	419.5
+"Skating Rinks"	758.0
+"Ski & Snowboard Shops"	598.0
+"Ski Resorts"	667.0
+"Skin Care"	509.3333333333333
+"Skydiving"	569.0
+"Sleep Specialists"	1080.0
+"Slovakian"	921.0
+"Smog Check Stations"	480.5
+"Soccer"	636.5
+"Social Clubs"	748.0
+"Software Development"	806.0
+"Solar Installation"	737.5
+"Soul Food"	645.5
+"Soup"	564.5
+"Southern"	683.5
+"Souvenir Shops"	599.0
+"Spanish"	800.5
+"Special Education"	823.0
+"Specialty Food"	622.0
+"Specialty Schools"	757.5
+"Speech Therapists"	725.5
+"Spine Surgeons"	497.0
+"Sporting Goods"	633.0
+"Sports Bars"	576.0
+"Sports Clubs"	788.0
+"Sports Medicine"	756.5
+"Sports Wear"	655.5
+"Spray Tanning"	525.5
+"Sri Lankan"	640.5
+"Stadiums & Arenas"	746.0
+"Steakhouses"	755.5
+"Street Vendors"	653.5
+"Sugaring"	463.5
+"Summer Camps"	616.5
+"Supper Clubs"	667.0
+"Surf Shop"	496.0
+"Surfing"	663.0
+"Surgeons"	779.5
+"Sushi Bars"	584.3333333333334
+"Swimming Lessons/Schools"	647.5
+"Swimming Pools"	778.5
+"Swimwear"	670.0
+"Swiss Food"	885.0
+"Synagogues"	440.5
+"Szechuan"	618.0
+"Tai Chi"	528.5
+"Taiwanese"	637.0
+"Talent Agencies"	393.0
+"Tanning Beds"	568.5
+"Tanning"	551.5
+"Tapas Bars"	728.5
+"Tapas/Small Plates"	759.0
+"Tasting Classes"	776.0
+"Tattoo Removal"	541.5
+"Tattoo"	558.0
+"Tax Law"	499.0
+"Tax Services"	521.0
+"Taxidermy"	579.0
+"Taxis"	606.0
+"Tea Rooms"	695.0
+"Teeth Whitening"	612.5
+"Telecommunications"	698.0
+"Television Service Providers"	805.5
+"Television Stations"	632.5
+"Tennis"	615.5
+"Teppanyaki"	534.0
+"Test Preparation"	621.0
+"Tex-Mex"	582.5
+"Thai"	580.5
+"Thrift Stores"	600.5
+"Ticket Sales"	730.0
+"Tiling"	605.0
+"Tires"	604.5
+"Tobacco Shops"	482.5
+"Tours"	782.5
+"Towing"	612.0
+"Toy Stores"	609.5
+"Traditional Chinese Medicine"	573.0
+"Train Stations"	771.5
+"Trainers"	722.0
+"Trains"	608.0
+"Trampoline Parks"	635.0
+"Translation Services"	618.0
+"Transmission Repair"	699.0
+"Transportation"	708.0
+"Travel Services"	693.5
+"Tree Services"	655.5
+"Trinidadian"	571.0
+"Trophy Shops"	533.5
+"Truck Rental"	638.5
+"Turkish"	595.0
+"Tutoring Centers"	682.5
+"Ukrainian"	774.0
+"Uniforms"	520.5
+"University Housing"	924.5
+"Unofficial Yelp Events"	1086.5
+"Urgent Care"	646.5
+"Urologists"	669.0
+"Used Bookstore"	823.5
+"Used, Vintage & Consignment"	637.5
+"Utilities"	741.5
+"Uzbek"	960.5
+"Vacation Rental Agents"	1133.5
+"Vacation Rentals"	1009.0
+"Valet Services"	508.0
+"Vape Shops"	478.0
+"Vegan"	613.5
+"Vegetarian"	608.5
+"Vehicle Shipping"	473.5
+"Venezuelan"	614.5
+"Venues & Event Spaces"	777.0
+"Veterinarians"	789.0
+"Video Game Stores"	491.0
+"Video/Film Production"	547.0
+"Videographers"	684.5
+"Videos & Video Game Rental"	628.5
+"Vietnamese"	564.5
+"Vinyl Records"	622.3333333333334
+"Vitamins & Supplements"	448.5
+"Vocational & Technical School"	828.5
+"Walk-in Clinics"	873.0
+"Walking Tours"	556.0
+"Watch Repair"	536.5
+"Watches"	620.0
+"Water Delivery"	638.0
+"Water Heater Installation/Repair"	607.5
+"Water Parks"	873.0
+"Water Purification Services"	641.5
+"Waxing"	492.0
+"Web Design"	538.5
+"Wedding Chapels"	1076.5
+"Wedding Planning"	866.0
+"Weight Loss Centers"	667.0
+"Wheel & Rim Repair"	554.5
+"Wholesale Stores"	599.0
+"Wigs"	526.0
+"Window Washing"	546.0
+"Windows Installation"	611.0
+"Windshield Installation & Repair"	560.0
+"Wine Bars"	703.0
+"Wine Tasting Classes"	1013.0
+"Wine Tasting Room"	820.5
+"Wine Tours"	513.5
+"Wineries"	747.0
+"Wok"	179.0
+"Women's Clothing"	696.0
+"Yelp Events"	952.0
+"Yoga"	698.0
+"Zoos"	746.0

@@ -1,0 +1,327 @@
+"110. Las Vegas"	106.0
+"Ahwatukee Foothills Village"	66.0
+"Ahwatukee"	52.0
+"Allegheny"	75.0
+"Anjou"	94.5
+"Anthem"	46.333333333333336
+"Apache Junction"	60.0
+"Arcadia"	89.0
+"Arlington"	56.0
+"Aspinwall"	54.0
+"Avondale"	60.333333333333336
+"Baie-D'urfe"	279.0
+"Beaconsfield"	60.5
+"Bellevue"	62.5
+"Bellvue"	47.0
+"Belmont"	71.5
+"Bethel Park"	55.0
+"Black Canyon City"	51.0
+"Blainville"	74.0
+"Blawnox"	92.0
+"Bloomfield"	170.0
+"Boisbriand"	127.0
+"Bonnyrigg and Lasswade"	39.0
+"Bonnyrigg"	96.0
+"Boucherville"	39.0
+"Boulder City"	71.0
+"Braddock"	46.0
+"Brentwood"	63.5
+"Breslau"	80.0
+"Bridgeville"	60.5
+"Brookline"	37.0
+"Brossard"	62.0
+"Buckeye"	65.0
+"Burbank"	65.0
+"C Las Vegas"	102.0
+"Cambridge"	119.5
+"Carefree"	63.0
+"Carnegie"	65.0
+"Casa Grande"	58.5
+"Castle Shannon"	45.0
+"Cave Creek"	62.5
+"Centennial Hills"	49.0
+"Central City Village"	87.5
+"Central Henderson"	86.0
+"Central"	143.0
+"Champaign"	59.0
+"Chandler Heights"	53.0
+"Chandler"	61.0
+"Charlemagne"	13.0
+"Charlotte"	64.0
+"Chateau"	88.0
+"Clark"	68.0
+"Clover"	61.0
+"Columbus"	60.0
+"Concord Mills"	36.0
+"Concord"	60.0
+"Conestogo"	27.0
+"Coolidge"	37.5
+"Cornwell Development"	13.0
+"Cote Saint-Luc"	24.0
+"Cottage Grove"	84.5
+"Crafton"	44.0
+"Cramond"	73.0
+"Dalgety Bay"	79.0
+"Dalkeith"	130.5
+"Dallas"	53.0
+"De Forest"	55.0
+"DeForest"	55.5
+"Deforest"	48.0
+"Desert Ridge"	39.0
+"Deux-Montagnes Regional County Municipality"	132.0
+"Dollard-Des Ormeaux"	45.0
+"Dollard-Des-Ormeaux"	52.5
+"Dollard-des-Ormeaux"	49.0
+"Dormont"	46.0
+"Dorval"	79.5
+"Downtown"	127.0
+"Dravosburg"	142.5
+"Durmersheim"	147.0
+"East Mesa"	70.0
+"Edgewood"	40.0
+"Edinburgh"	92.33333333333333
+"Eggenstein-Leopoldshafen"	36.0
+"El Mirage"	77.0
+"Enterprise"	56.0
+"Estrella Village"	156.0
+"Etna"	55.0
+"Ettlingen"	34.0
+"Fabreville"	86.0
+"Firth of Forth"	34.5
+"Fitchburg"	60.0
+"Florence"	73.5
+"Fort Kinnaird"	59.0
+"Fort McDowell"	52.5
+"Fort Mcdowell"	55.0
+"Fort Mill"	61.0
+"Fountain Hills"	72.0
+"Ft. Mill"	78.0
+"Gila Bend"	55.5
+"Gilbert"	61.0
+"Gilbert, AZ"	389.0
+"Glendale Az"	45.0
+"Glendale"	62.333333333333336
+"Gold Canyon"	72.0
+"Goldfield"	62.0
+"Goodyear"	55.0
+"Grand Canyon"	80.0
+"Green Tree"	58.0
+"Green Valley"	33.0
+"Greenfield Park"	32.0
+"Guadalupe"	65.0
+"Harrisburg"	71.5
+"Heidelberg"	49.0
+"Henderson NV"	114.0
+"Henderson and Las vegas"	151.0
+"Henderson"	77.0
+"Henderston"	62.0
+"Higley"	52.0
+"Homestead"	62.0
+"Huntersville"	59.0
+"Independence"	38.0
+"Indian Land"	59.0
+"Indian Trail"	76.5
+"Inverkeithing"	30.0
+"Juniper Green"	83.0
+"Karlsruhe"	68.5
+"Kirkland"	70.5
+"Kitchener"	75.0
+"L'\u00cele-Bizard"	102.0
+"L'\u00cele-des-Soeurs"	87.0
+"La Paz"	45.0
+"La Prairie"	45.0
+"LaSalle"	87.5
+"Lachine"	73.0
+"Lake Wylie"	64.5
+"Las Vegas "	265.5
+"Las Vegas"	61.0
+"Las Vegas, NV"	35.0
+"Lasalle"	59.0
+"Lasswade"	71.5
+"Laval"	64.5
+"Laveen Village"	84.0
+"Laveen"	67.5
+"Lawrenceville"	50.5
+"Le Sud-Ouest"	116.0
+"Le Vieux-Port"	52.0
+"Leith"	73.5
+"Litchfield Park "	47.0
+"Litchfield Park"	64.0
+"Loanhead"	53.0
+"Longueuil"	70.0
+"Lower Lawrenceville"	79.0
+"MMRP"	52.0
+"Madison"	65.0
+"Maricopa AZ"	91.0
+"Maricopa"	69.0
+"Mascouche"	76.0
+"Mattews"	31.0
+"Matthews"	56.333333333333336
+"Mc Farland"	51.5
+"Mc Kees Rocks"	43.5
+"McAdenville"	21.0
+"McFarland"	34.5
+"McKees Rocks"	44.0
+"McKeesport"	20.0
+"Mcfarland"	111.0
+"Mckees Rocks"	55.5
+"Mesa "	47.0
+"Mesa AZ"	21.0
+"Mesa"	59.5
+"Meza"	30.0
+"Middleton"	64.5
+"Midlothian"	76.5
+"Millvale"	54.0
+"Mint Hill"	66.0
+"Mirabel"	47.0
+"Monona"	65.5
+"Monroe"	17.0
+"Mont-Royal"	91.5
+"Mont\u00e9al"	21.0
+"Montr\u00e9al"	69.66666666666667
+"Montr\u00e9al-Nord"	71.0
+"Montr\u00e9al-Ouest"	169.0
+"Montreal"	71.5
+"Montreal-Est"	94.0
+"Montreal-Nord"	63.0
+"Montreal-West"	59.0
+"Morristown"	43.5
+"Mount Holly"	63.5
+"Mount Lebanon"	85.33333333333333
+"Mount Royal"	46.0
+"Mount Washington"	100.0
+"Mt Lebanon"	36.5
+"Mt. Oliver Boro"	85.0
+"Munhall"	56.0
+"Musselburgh"	82.5
+"N E Las Vegas"	42.0
+"N Las Vegas"	72.5
+"N W Las Vegas"	44.0
+"N. Las Vegas"	60.5
+"NELLIS AFB"	48.0
+"Nboulder City"	13.0
+"Nellis AFB"	45.5
+"Nellis Afb"	76.0
+"New River"	64.0
+"New Town"	37.0
+"Newbridge"	81.5
+"Newington"	37.0
+"North Las Vegas "	28.0
+"North Las Vegas"	62.0
+"North Scottsdale"	53.0
+"Oakland"	50.5
+"Old Montreal"	51.0
+"Old Town"	55.0
+"Outremont"	79.0
+"Paradise Valley"	56.5
+"Paradise"	59.5
+"Penicuik"	109.0
+"Peoria"	57.0
+"Pheonix"	34.0
+"Phoenix"	58.0
+"Phoenix-Ahwatukee"	58.0
+"Pierrefonds"	43.5
+"Pineville"	62.5
+"Pittsburg"	77.0
+"Pittsburgh"	51.0
+"Pittsburgh/S. Hills Galleria"	87.0
+"Pittsburgh/Waterfront"	48.0
+"Pittsburrgh"	50.0
+"Pointe-Aux-Trembles"	29.0
+"Pointe-Claire"	58.5
+"Portobello"	24.0
+"Queen Creek"	67.5
+"Queen Valley"	148.0
+"Queensferry"	130.0
+"Ratho"	38.0
+"Regent Square"	34.0
+"Rheinstetten"	39.0
+"Rio Verde"	29.5
+"Robinson Township"	8.0
+"Rockport"	108.0
+"Rosem\u00e8re"	72.0
+"Rosemere"	89.0
+"Roxboro"	55.0
+"Saint Laurent"	69.0
+"Saint-Eustache"	16.0
+"Saint-Henri"	65.0
+"Saint-Lambert"	127.0
+"Saint-Laurent"	64.5
+"Saint-Leonard"	58.0
+"Saint-laurent"	47.0
+"Sainte-Anne-De-Bellevue"	42.0
+"Sainte-Anne-de-Bellevue"	53.0
+"Sainte-Genevieve"	76.0
+"Sainte-Th\u00e9r\u00e8se"	28.0
+"Sainte-Therese"	11.0
+"San Diego"	103.0
+"San Tan Valley"	61.5
+"Savoy"	64.0
+"Scotesdale"	29.0
+"Scottdale"	79.0
+"Scottsdale"	56.0
+"Sedona"	49.0
+"Shadyside"	65.0
+"Sharpsburg"	90.5
+"South Las Vegas"	27.5
+"South Queensferry"	37.0
+"Spring Valley"	34.5
+"Squirrel Hill"	69.5
+"St Jacobs"	29.0
+"St Leonard"	28.0
+"St. Jacobs"	45.0
+"Stallings"	71.0
+"Ste-Rose"	24.0
+"Stockbridge"	42.0
+"Stoughton"	73.0
+"Straiton"	63.0
+"Stutensee-Blankenloch"	56.0
+"Summerlin South"	64.0
+"Summerlin"	67.0
+"Sun City Anthem"	36.0
+"Sun City West"	43.5
+"Sun City"	67.0
+"Sun Lakes"	68.0
+"Sun Prairie"	65.5
+"Sunrise"	63.0
+"Surprise Crossing"	142.0
+"Surprise"	60.0
+"Swissvale"	41.5
+"Tega Cay"	81.0
+"Tempe"	51.333333333333336
+"Terrebonne"	28.0
+"Tolleson"	60.0
+"Tonopah"	58.5
+"Tonto Basin"	62.0
+"Tortilla Flat"	52.0
+"Upper Saint Clair"	278.0
+"Urbana"	64.0
+"Verdun"	75.0
+"Verona"	66.0
+"Vimont"	40.5
+"W Henderson"	51.0
+"W Spring Valley"	50.0
+"W Summerlin"	39.0
+"W\u00f6rth am Rhein"	64.0
+"Waddell"	59.5
+"Waterloo"	68.0
+"Waunakee"	75.5
+"Waxhaw"	59.0
+"Weddington"	52.0
+"Weingarten"	69.5
+"Wesley Chapel"	77.0
+"West Homestead"	53.5
+"West Mifflin"	53.0
+"Westmount"	71.0
+"Westworld Scottsdale"	33.0
+"Whitehall"	72.0
+"Whitney"	135.0
+"Wickenburg"	64.5
+"Wilkinsburg"	41.5
+"Windsor"	38.0
+"Wittmann"	30.0
+"Youngtown"	63.0
+"\u00cele des Soeurs"	58.0
+"chandler"	220.0
+"glendale"	43.0
+"rankin"	125.0
