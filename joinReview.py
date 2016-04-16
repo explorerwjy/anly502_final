@@ -1,6 +1,8 @@
 import mrjob
 import mrjob.compat
 from mrjob.job import MRJob
+from mrjob.step import MRStep
+
 import re
 from mrjob.protocol import JSONValueProtocol
 
@@ -18,6 +20,8 @@ class businessReviewJoin(MRJob):
             except ValueError as e:
                 pass
         elif data['type'] == 'business':
+            self.increment_counter('status','business.json found',1)
+
             try:
                 yield data['business_id'], ('city',  data['city'])
             except ValueError :
@@ -27,8 +31,8 @@ class businessReviewJoin(MRJob):
     def reducer(self, key, values):
         city = None
         for v in values:
-            if  v[0:1]=='city':
-                city = v[1:]
+            if  v[0]=='city':
+                city = v[1]
                 continue
             if not city:
                 self.increment_counter('Warning','No City Found',1)
@@ -55,5 +59,5 @@ class businessReviewJoin(MRJob):
                    combiner = self.tally_combiner,
                    reducer = self.tally_reducer)]
                    
-if __name__ = '__main__':
+if __name__ == '__main__':
     businessReviewJoin.run()
