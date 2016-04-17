@@ -69,22 +69,24 @@ def stats_on_cat(business_data):
 
 # Here I define best as with most number of reviews
 def best_business_all(business_data,n):
-    bus = business_data.map(lambda x: (x['business_id'],x['review_count']))
-    counts = bus.map(lambda x : (x[1],x[0])).sortByKey(False).map(lambda x: (x[1],x[0])).take(n)
-    file_name = "best_"+n+"_business_all.txt"
+    bus = business_data.map(lambda x: (x,x['review_count']))
+    counts = bus.map(lambda x : (x[1],x[0])).sortByKey(False).map(lambda x: (x[1],x[0]))
+    counts = counts.map(lambda x: (x[0]["business_id"],x[0]["name"],x[0]["city"],x[0]["categories"][0],x[0]["stars"],x[1])).take(n)
+    file_name = "best_"+str(n)+"_business_all.txt"
     with open(file_name,'w') as fout:
-        for (bus,count) in counts:
-            fout.write("{}\t{}\n".format(bus,count))
+        for (bus,name,city,cat,stars,count) in counts:
+            fout.write("{}\t{}\t{}\t{}\t{}\t{}\n".format(bus,name,city,cat,stars,count))
 
 # Find best business by given categories
 def best_business_cat(business_data,cat,n):
     cat_data = business_data.filter(lambda x: cat in x["categories"])
-    bus = cat_data.map(lambda x: (x['business_id'],x['review_count']))
-    counts = bus.map(lambda x : (x[1],x[0])).sortByKey(False).map(lambda x: (x[1],x[0])).take(n)
-    file_name = "best_"+n+"_business_"+cat+".txt"
+    bus = cat_data.map(lambda x: (x,x['review_count']))
+    counts = bus.map(lambda x : (x[1],x[0])).sortByKey(False).map(lambda x: (x[1],x[0]))
+    counts = counts.map(lambda x: (x[0]["business_id"],x[0]["name"],x[0]["city"],x[0]["categories"][0],x[0]["stars"],x[1])).take(n)
+    file_name = "best_"+str(n)+"_business_"+cat+".txt"
     with open(file_name,'w') as fout:
-        for (bus,count) in counts:
-            fout.write("{}\t{}\n".format(bus,count))
+        for (bus,name,city,cat,stars,count) in counts:
+            fout.write("{}\t{}\t{}\t{}\t{}\t{}\n".format(bus,name,city,cat,stars,count))
 
 
 if __name__ == "__main__":
@@ -103,11 +105,11 @@ if __name__ == "__main__":
 
     # Procedures starts
 
-    group_by_city(business_data)
-    #stats_on_city(business_data,1) 
+    #group_by_city(business_data)
+    #stats_on_city(business_data,5) 
     #stats_on_cat(business_data)
     #best_business_all(business_data,20)
-    #best_business_cat(business_data,cat,20)
+    best_business_cat(business_data,"Restaurants",20)
 
 
     # Procedures ends

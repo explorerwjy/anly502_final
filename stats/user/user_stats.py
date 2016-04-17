@@ -23,17 +23,17 @@ def find_most(my_list):
 # The city that user write most reviews is the city they most active
 def stats_by_city(business_data,user_data,review_data):
     #users = user_data.map(lambda x : (x["user_id"],1))
-    reviews = review_data.map(lambda x : (x["business_id"],x["user_id"]))
+    reviews = review_data.map(lambda x : (x["business_id"],x["user_id"].encode('utf-8').strip()))
     business = business_data.map(lambda x: (x["business_id"],x["city"].encode('utf-8').strip()))
     user_city = reviews.join(business).map(lambda x : (x[1][0],x[1][1])) #user_id,city
-    user_city_count = user_city.map(lambda x: (x[1]+'&'+x[2],1)) #user_id&city,1
+    user_city_count = user_city.map(lambda x: (x[0]+'\t'+x[1],1)) #user_id&city,1
     user_city_count = user_city_count.reduceByKey(lambda x,y: x+y)#user_id_city,count
-    user_city_group = user_city_count.map(lambda x: (x[0].split('&')[0], (x[0].split('&')[1], x[1])))#user_id,(city,count)
+    user_city_group = user_city_count.map(lambda x: (x[0].split('\t')[0], (x[0].split('\t')[1], x[1])))#user_id,(city,count)
     user_city_group = user_city_group.groupByKey()
     user_city_group = user_city_group.map(lambda x: (x[0],find_most(x[1])))#user_id,(most_city,most_count)
     city_count = user_city_group.map(lambda x: (x[1][0],1))#city,1
     city_count = city_count.reduceByKey(lambda x,y: x+y)#city,count
-    city_count.map(lambda x: (x[1],x[0])).sortByKey(False).map(lambda x:(x[1],x[0]))
+    city_count = city_count.map(lambda x: (x[1],x[0])).sortByKey(False).map(lambda x:(x[1],x[0]))
     counts = city_count.collect()
 
     with open("city_user_number.txt",'w') as fout:
@@ -45,12 +45,27 @@ def stats_by_year(user_data):
     user_reduce = users.reduceByKey(lambda x,y : x+y).sortByKey(True)
     counts = user_reduce.collect()
 
-    with open("user_join_time_line.txt") as fout:
+    with open("user_join_time_line.txt",'w') as fout:
         for (time,count) in counts:
             fout.write("{}\t{}\n".format(time,count))
     return
+def split_cat(x):
+    return x
+def elite_number_by_year(user_data):
+    elite = user_data.map(lambda x:(x['user_id'],x['elite'])) 
+    elite = elite.flatMapValues(split_cat)
+    elite_count = elite.map(lambda x:(x[1],1))
+    elite_count = elite_count.reduceByKey(lambda x,y:x+y)
+    counts = elite_count.sortByKey(True).collect()
 
-def 
+    with open("elite_number_by_year.txt",'w') as fout:
+        for (year,number) in counts:
+            fout.write("{}\t{}\n".format(year,number))
+    return
+
+
+def stats_by_year_by_city(user_data):
+    pass 
 
 if __name__ == "__main__":
 
@@ -67,7 +82,7 @@ if __name__ == "__main__":
     review_data = sc.textFile(review_file).map(lambda x: json.loads(x))
     
     #call the procedures
-    stats_by_city(business_data,user_data,review_data)
+    #stats_by_city(business_data,user_data,review_data)
     #stats_by_year(user_data)
-
+    elite_number_by_year(user_data)
     sc.stop()
