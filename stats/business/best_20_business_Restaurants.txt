@@ -1,0 +1,20 @@
+4bEjOyTaDG24SY5TxsaUNQ	Mon Ami Gabi	Las Vegas	Breakfast & Brunch	4.0	5642
+zt1TpTuJ6y9n551sw9TaEg	Wicked Spoon	Las Vegas	Buffets	3.5	4558
+2e2e7WgqU1BnpxmQL5jbfw	Earl of Sandwich	Las Vegas	Sandwiches	4.5	4452
+sIyHTizqAiGu12XMLX3N3g	Bacchanal Buffet	Las Vegas	Buffets	4.0	4390
+aGbjLWzcrnEx2ZmMCFm3EA	Gordon Ramsay BurGR	Las Vegas	Burgers	4.0	3811
+Xhg93cMdemu5pAMkDoEdtQ	Serendipity 3	Las Vegas	Food	3.0	3478
+YNQgak-ZLtYJQxlDwN-qIg	The Buffet	Las Vegas	Buffets	3.5	3281
+CZjcFdvJhksq9dy58NVEzw	The Buffet at Bellagio	Las Vegas	American (New)	3.5	3014
+QbmcCE_cLq4WO8ZMKImaLw	Hash House A Go Go	Las Vegas	Breakfast & Brunch	4.0	3014
+tFU2Js_nbIZOrnKfYJYBBg	Bouchon at The Venetian	Las Vegas	Event Planning & Services	4.0	2922
+lliksv-tglfUz1T3B3vgvA	Lotus of Siam	Las Vegas	Thai	4.0	2818
+eq6lQI039SBLC6sHm3idGA	Secret Pizza	Las Vegas	Pizza	4.0	2758
+xfwRO04KbAPw_zRotCfWQQ	Hash House A Go Go	Las Vegas	Breakfast & Brunch	4.0	2714
+DO3Gk17RyJVW7zYMCtYPnw	Mesa Grill	Las Vegas	Southern	4.0	2442
+PXviRcHR1mqdH4vRc2LEAQ	Bachi Burger	Las Vegas	Burgers	4.0	2404
+xyTJYlbE_MLouK6rCou6zg	Burger Bar	Las Vegas	Bars	4.0	2166
+mDdqifuTrfXAOfxiLMGu5Q	Gordon Ramsay Steak	Las Vegas	Steakhouses	4.0	2139
+BqrTtox0JbG-P_DKBB5bBw	Holstein's Shakes & Buns	Las Vegas	Burgers	4.0	2130
+jOuERtVf7QePnK9ZcdH5XA	Grand Lux Cafe	Las Vegas	Food	4.0	1937
+iUPJmJvHy9fVfRxsuwwdLQ	Gangnam Asian BBQ Dining	Las Vegas	Korean	4.5	1927

@@ -1,0 +1,754 @@
+Restaurants	4660
+Shopping	2661
+Food	1726
+Beauty & Spas	1696
+Health & Medical	1239
+Nightlife	1177
+Home Services	1144
+Automotive	975
+Bars	894
+Fashion	874
+Local Services	854
+Arts & Entertainment	787
+Event Planning & Services	728
+Active Life	688
+Fast Food	657
+Hotels & Travel	622
+Mexican	570
+Hair Salons	499
+American (Traditional)	479
+Pizza	468
+Sandwiches	435
+Real Estate	408
+Doctors	401
+Nail Salons	384
+Auto Repair	377
+Women's Clothing	357
+Burgers	353
+Chinese	345
+Coffee & Tea	339
+Professional Services	325
+American (New)	318
+Fitness & Instruction	306
+Pets	304
+Home & Garden	284
+Dentists	280
+Hotels	280
+Italian	278
+Financial Services	277
+Japanese	250
+Performing Arts	245
+Grocery	225
+Men's Clothing	212
+Lounges	209
+Specialty Food	206
+Accessories	205
+Breakfast & Brunch	203
+General Dentistry	199
+Day Spas	197
+Ice Cream & Frozen Yogurt	196
+Cosmetics & Beauty Supply	195
+Bakeries	194
+Desserts	194
+Skin Care	193
+Apartments	192
+Pet Services	191
+Massage	187
+Seafood	179
+Sushi Bars	178
+Hair Removal	174
+Convenience Stores	170
+Education	170
+Steakhouses	166
+Casinos	164
+Sports Bars	161
+Banks & Credit Unions	161
+Shoe Stores	155
+Gas & Service Stations	153
+Gyms	152
+Jewelry	151
+Dry Cleaning & Laundry	141
+Juice Bars & Smoothies	138
+Barbeque	132
+Cafes	130
+Hair Stylists	129
+Asian Fusion	127
+Chicken Wings	126
+Drugstores	125
+Department Stores	124
+Thai	123
+Pet Groomers	120
+Tires	119
+Auto Parts & Supplies	118
+Sporting Goods	116
+Music Venues	115
+Flowers & Gifts	114
+Optometrists	112
+Arts & Crafts	109
+Pubs	106
+Eyelash Service	106
+Printing Services	106
+Barbers	105
+Transportation	104
+Dance Clubs	104
+Books, Mags, Music & Video	102
+Makeup Artists	102
+Party & Event Planning	102
+Delis	101
+Furniture Stores	100
+Shipping Centers	100
+Beer, Wine & Spirits	100
+Buffets	100
+Cosmetic Dentists	99
+Public Services & Government	98
+Oil Change Stations	97
+Chiropractors	97
+Medical Centers	97
+Trainers	96
+Photographers	95
+Mobile Phones	93
+Car Rental	93
+Car Dealers	93
+Parks	90
+Venues & Event Spaces	88
+Veterinarians	87
+Car Wash	86
+Tours	85
+Tattoo	84
+Tanning	83
+Lawyers	83
+Mediterranean	83
+Korean	81
+Vape Shops	81
+Hawaiian	79
+Home Decor	79
+Discount Store	78
+Hair Extensions	78
+Heating & Air Conditioning/HVAC	78
+Real Estate Services	76
+Pet Stores	75
+Specialty Schools	74
+Body Shops	73
+Hot Dogs	73
+Electronics	72
+Tobacco Shops	72
+Carpet Cleaning	72
+IT Services & Computer Repair	71
+Eyewear & Opticians	71
+Property Management	70
+Insurance	70
+Vietnamese	67
+Adult Entertainment	67
+Real Estate Agents	65
+Self Storage	65
+Festivals	65
+Florists	64
+Massage Therapy	64
+Food Trucks	64
+Home Cleaning	63
+Donuts	62
+Contractors	61
+Plumbing	61
+Smog Check Stations	60
+Cocktail Bars	60
+Art Galleries	60
+Landscaping	59
+Pet Boarding/Pet Sitting	59
+Waxing	55
+Religious Organizations	53
+Medical Spas	53
+Tex-Mex	52
+Salad	51
+Sports Wear	49
+Obstetricians & Gynecologists	49
+Notaries	48
+Thrift Stores	48
+Family Practice	48
+Filipino	47
+Outlet Stores	47
+Wedding Planning	47
+Preschools	47
+Internal Medicine	46
+Auto Glass Services	46
+Mortgage Brokers	46
+Diners	46
+Child Care & Day Care	46
+Session Photography	46
+Hobby Shops	46
+Pest Control	46
+Swimming Pools	45
+Movers	45
+French	45
+Watches	45
+Appliances & Repair	45
+Yoga	44
+Kitchen & Bath	44
+Mattresses	44
+Diagnostic Services	44
+Auto Detailing	43
+Graphic Design	42
+Latin American	42
+Ethnic Food	41
+Churches	41
+Children's Clothing	41
+Vegetarian	41
+Dive Bars	41
+Mobile Phone Repair	41
+Resorts	40
+Wine Bars	40
+Amusement Parks	40
+Karaoke	40
+Toy Stores	39
+Event Photography	39
+Leather Goods	39
+Hookah Bars	39
+Martial Arts	39
+Indian	38
+Community Service/Non-Profit	38
+Chocolatiers & Shops	38
+Physical Therapy	38
+Used, Vintage & Consignment	37
+Greek	37
+Bookstores	37
+Personal Injury Law	37
+Caterers	37
+Sewing & Alterations	37
+Pet Training	36
+Weight Loss Centers	36
+Golf	35
+Pediatricians	35
+Limos	35
+Criminal Defense Law	34
+Gift Shops	34
+Electronics Repair	33
+Food Stands	33
+Orthodontists	33
+Flooring	33
+Elementary Schools	33
+Southern	33
+Vegan	33
+Playgrounds	32
+Appliances	32
+Bagels	32
+Reflexology	31
+Travel Services	31
+Candy Stores	31
+Tax Services	31
+Comedy Clubs	30
+Blow Dry/Out Services	30
+Street Vendors	30
+Mass Media	30
+Middle Eastern	30
+Pilates	29
+Lingerie	29
+Urgent Care	29
+Bridal	29
+Local Flavor	29
+Auto Customization	28
+Museums	28
+Shopping Centers	28
+Office Equipment	28
+Video/Film Production	28
+Handyman	28
+Soul Food	28
+Oral Surgeons	27
+Internet Service Providers	27
+Pediatric Dentists	27
+Health Markets	27
+Signmaking	27
+Post Offices	26
+Tapas Bars	26
+Motorcycle Dealers	26
+Garage Door Services	26
+Spray Tanning	26
+Taxis	26
+Boot Camps	26
+Gluten-Free	26
+Piercing	26
+Dance Studios	26
+Antiques	26
+Painters	25
+Keys & Locksmiths	25
+Pool Cleaners	25
+Cinema	25
+Laser Hair Removal	25
+Airport Shuttles	25
+Dermatologists	24
+Towing	24
+Cajun/Creole	24
+Farmers Market	24
+Web Design	24
+Shaved Ice	24
+Gay Bars	24
+Marketing	24
+Cards & Stationery	23
+Hardware Stores	23
+Ophthalmologists	23
+Videos & Video Game Rental	23
+Comic Books	23
+Nurseries & Gardening	22
+Orthopedists	22
+Musical Instruments & Teachers	22
+Diagnostic Imaging	22
+Wheel & Rim Repair	22
+Windshield Installation & Repair	22
+Guns & Ammo	22
+Hot Tub & Pool	22
+Office Cleaning	21
+DJs	21
+Arcades	21
+Bubble Tea	21
+Pawn Shops	21
+Tapas/Small Plates	21
+Security Systems	21
+Ticket Sales	21
+Shoe Repair	21
+Pool Halls	21
+Car Stereo Installation	21
+Baby Gear & Furniture	20
+Men's Hair Salons	20
+Carpeting	20
+Dim Sum	20
+Hospitals	20
+Nutritionists	19
+Formal Wear	19
+Breweries	19
+Recreation Centers	18
+Divorce & Family Law	18
+Party Equipment Rentals	18
+Couriers & Delivery Services	18
+Computers	18
+Art Supplies	18
+Vitamins & Supplements	18
+Accountants	17
+Libraries	17
+Electricians	17
+Radio Stations	17
+Naturopathic/Holistic	17
+Airlines	17
+Costumes	17
+Laboratory Testing	16
+Gun/Rifle Ranges	16
+Podiatrists	16
+Soup	16
+Food Delivery Services	16
+Home Inspectors	16
+Photo Booth Rentals	16
+Party Supplies	16
+Photography Stores & Services	16
+Pool & Hot Tub Service	16
+Wedding Chapels	16
+Screen Printing/T-Shirt Printing	16
+Motorcycle Repair	16
+Meat Shops	16
+Cosmetic Surgeons	16
+Outdoor Gear	15
+DUI Law	15
+Bikes	15
+Adult	15
+Tree Services	15
+Home Theatre Installation	15
+Shades & Blinds	15
+Television Service Providers	15
+Transmission Repair	15
+Dog Parks	15
+Taiwanese	15
+Interior Design	15
+Middle Schools & High Schools	14
+Windows Installation	14
+Home Window Tinting	14
+Life Coach	14
+Szechuan	14
+Truck Rental	14
+Cheesesteaks	14
+Boxing	14
+Ramen	14
+Kosher	13
+Window Washing	13
+Cupcakes	13
+Laser Eye Surgery/Lasik	13
+Bike Rentals	13
+Bowling	13
+Cantonese	13
+Acupuncture	13
+Building Supplies	13
+Persian/Iranian	13
+Amateur Sports Teams	13
+Permanent Makeup	13
+Food Court	13
+Counseling & Mental Health	12
+Dog Walkers	12
+Caribbean	12
+Lighting Fixtures & Equipment	12
+Sports Clubs	12
+Spanish	12
+Dance Schools	12
+Gastropubs	12
+Solar Installation	12
+Employment Agencies	12
+Embroidery & Crochet	12
+Bankruptcy Law	12
+Wholesale Stores	11
+Commercial Real Estate	11
+Pretzels	11
+Check Cashing/Pay-day Loans	11
+Colleges & Universities	11
+Educational Services	11
+Coffeeshops	11
+Endodontists	11
+Gelato	11
+Damage Restoration	11
+Fabric Stores	11
+Ethiopian	11
+Comfort Food	11
+Party Bus Rentals	11
+Funeral Services & Cemeteries	11
+Fruits & Veggies	10
+Public Transportation	10
+Cuban	10
+Stadiums & Arenas	10
+Music & DVDs	10
+Videographers	10
+Advertising	10
+Auto Loan Providers	10
+Door Sales/Installation	10
+Police Departments	10
+Psychics & Astrologers	10
+Jewelry Repair	10
+Creperies	10
+Vacation Rentals	10
+Gold Buyers	10
+Rehabilitation Center	10
+Plus Size Fashion	9
+Medical Supplies	9
+Ear Nose & Throat	9
+Periodontists	9
+Magicians	9
+Uniforms	9
+Salvadoran	9
+Hiking	9
+Driving Schools	9
+Print Media	9
+Hats	9
+Pakistani	9
+Swimwear	9
+Wigs	9
+Cabinetry	9
+General Litigation	8
+Masonry/Concrete	8
+Roofing	8
+Bike Repair/Maintenance	8
+Personal Chefs	8
+Irish	8
+RV Parks	8
+Pressure Washers	8
+Luggage	8
+Real Estate Law	8
+Tennis	8
+Landmarks & Historical Buildings	8
+Knitting Supplies	8
+Reiki	8
+Tattoo Removal	8
+Furniture Reupholstery	8
+Henna Artists	8
+Video Game Stores	7
+Musical Instrument Services	7
+Halal	7
+Brazilian	7
+Departments of Motor Vehicles	7
+Glass & Mirrors	7
+Soccer	7
+Seafood Markets	7
+British	7
+Hostels	7
+Junk Removal & Hauling	6
+Estate Planning Law	6
+Animal Shelters	6
+Water Delivery	6
+Cannabis Clinics	6
+Irrigation	6
+Mini Golf	6
+Tea Rooms	6
+Auto Insurance	6
+Airport Lounges	6
+Go Karts	6
+Zoos	6
+RV Rental	6
+Sports Medicine	6
+Vocational & Technical School	6
+Watch Repair	6
+Gymnastics	6
+Professional Sports Teams	6
+Immigration Law	6
+Popcorn Shops	6
+Horseback Riding	6
+Fences & Gates	6
+Radiologists	6
+Water Purification Services	6
+Bail Bondsmen	6
+Carpet Installation	6
+Peruvian	6
+Gardeners	6
+German	6
+Allergists	6
+Vinyl Records	6
+Challenge Courses	6
+Utilities	6
+Battery Stores	6
+Social Clubs	6
+Business Law	6
+Private Tutors	6
+Screen Printing	5
+Swimming Lessons/Schools	5
+Career Counseling	5
+Recording & Rehearsal Studios	5
+Golf Equipment	5
+Drywall Installation & Repair	5
+RV Dealers	5
+Data Recovery	5
+Endocrinologists	5
+Races & Competitions	5
+Investing	5
+Neurologist	5
+Guitar Stores	5
+Landscape Architects	5
+Do-It-Yourself Food	5
+Motorcycle Rental	5
+Skating Rinks	5
+Vacation Rental Agents	5
+Security Services	5
+Cosmetology Schools	5
+Laser Tag	5
+Officiants	5
+Aquariums	5
+Newspapers & Magazines	5
+Summer Camps	5
+Tutoring Centers	5
+Shutters	5
+Home Organization	5
+Psychiatrists	5
+Hot Pot	5
+Face Painting	4
+Shanghainese	4
+Software Development	4
+Occupational Therapy	4
+Home Automation	4
+Paintball	4
+Bingo Halls	4
+Traditional Chinese Medicine	4
+Blood & Plasma Donation Centers	4
+Country Clubs	4
+Television Stations	4
+Wineries	4
+Courthouses	4
+Framing	4
+Paint & Sip	4
+Tanning Beds	4
+Jazz & Blues	4
+Urologists	4
+Test Preparation	4
+Russian	4
+Midwives	4
+Flight Instruction	4
+Hospice	4
+Cultural Center	4
+Legal Services	4
+Afghan	4
+Lactation Services	4
+Auction Houses	4
+Mobile Phone Accessories	4
+Surgeons	4
+Mailbox Centers	4
+Kids Activities	4
+Live/Raw Food	4
+Butcher	4
+Doulas	4
+Speech Therapists	4
+Personal Assistants	3
+Shredding Services	3
+Boating	3
+Archery	3
+Special Education	3
+Musicians	3
+Tai Chi	3
+Hypnosis/Hypnotherapy	3
+Home & Rental Insurance	3
+Water Heater Installation/Repair	3
+Clowns	3
+Trophy Shops	3
+Gastroenterologist	3
+Aquarium Services	3
+Shared Office Spaces	3
+Buses	3
+Batting Cages	3
+ATV Rentals/Tours	3
+Life Insurance	3
+Meditation Centers	3
+Herbs & Spices	3
+Barre Classes	3
+Brasseries	3
+Paint Stores	3
+Fondue	3
+Bespoke Clothing	3
+Customized Merchandise	3
+Malaysian	3
+Talent Agencies	3
+Home Health Care	3
+Adult Education	3
+Fish & Chips	3
+Colombian	3
+Estate Liquidation	3
+Botanical Gardens	3
+Nanny Services	3
+Campgrounds	3
+Trampoline Parks	3
+Souvenir Shops	3
+Internet Cafes	3
+Horse Boarding	3
+Cooking Classes	3
+Boat Dealers	2
+Firearm Training	2
+Registration Services	2
+Livestock Feed & Supply	2
+Business Consulting	2
+Buddhist Temples	2
+Massage Schools	2
+Lebanese	2
+First Aid Classes	2
+CPR Classes	2
+Chimney Sweeps	2
+Golf Equipment Shops	2
+Irish Pub	2
+Art Schools	2
+Anesthesiologists	2
+Flea Markets	2
+Caricatures	2
+Financial Advising	2
+Airports	2
+Maternity Wear	2
+Art Classes	2
+Employment Law	2
+Unofficial Yelp Events	2
+Pulmonologist	2
+Mongolian	2
+Race Tracks	2
+Metal Fabricators	2
+Yelp Events	2
+Cardiologists	2
+Pool & Billiards	2
+Vehicle Shipping	2
+Boat Repair	2
+Turkish	2
+Motorcycle Gear	2
+Audiologist	2
+Parking	2
+Ukrainian	2
+Trains	2
+African	2
+Synagogues	2
+Christmas Trees	2
+Country Dance Halls	2
+Teeth Whitening	2
+Organic Stores	2
+Climbing	2
+Horse Equipment Shops	2
+Oncologist	2
+Tiling	2
+Fertility	2
+Music Production Services	2
+Cabaret	2
+Pub Food	2
+Venezuelan	2
+Leisure Centers	2
+Colonics	2
+Escape Games	2
+Personal Shopping	2
+Oxygen Bars	2
+Recycling Center	2
+Rugs	2
+Macarons	2
+Champagne Bars	2
+RV Repair	2
+Moroccan	2
+Argentine	2
+Food Tours	2
+Community Gardens	1
+Engraving	1
+Osteopathic Physicians	1
+Wine Tours	1
+Surf Shop	1
+Wine Tasting Room	1
+Planetarium	1
+Portuguese	1
+Skydiving	1
+Rafting/Kayaking	1
+Skate Shops	1
+Debt Relief Services	1
+Sleep Specialists	1
+Matchmakers	1
+Religious Schools	1
+Laotian	1
+Head Shops	1
+Surfing	1
+Cycling Classes	1
+Singaporean	1
+Psychologists	1
+Teppanyaki	1
+Disc Golf	1
+Pumpkin Patches	1
+Payroll Services	1
+Pet Adoption	1
+Historical Tours	1
+High Fidelity Audio Equipment	1
+Walking Tours	1
+Bartending Schools	1
+Currency Exchange	1
+Proctologists	1
+Hungarian	1
+Pole Dancing Classes	1
+Skate Parks	1
+Nurse Practitioner	1
+Piano Services	1
+Car Share Services	1
+Art Tours	1
+Medical Transportation	1
+Propane	1
+Public Relations	1
+Furniture Assembly	1
+Countertop Installation	1
+College Counseling	1
+Gerontologists	1
+Observatories	1
+Rock Climbing	1
+Hearing Aid Providers	1
+Spine Surgeons	1
+Fire Departments	1
+Furniture Repair	1
+Language Schools	1
+Poutineries	1
+Private Investigation	1
+Mobile Dent Repair	1
+Horse Racing	1
+Saunas	1
+Hindu Temples	1
+Fitness/Exercise Equipment	1
+Food Banks	1
+Opera & Ballet	1
+Firewood	1
+Cooking Schools	1
+Orthotics	1
+CSA	1
+Himalayan/Nepalese	1
+Appraisal Services	1
+Fireplace Services	1
+Brewing Supplies	1
+Parenting Classes	1
+Sugaring	1
+Bus Tours	1
+Powder Coating	1
+Bartenders	1
+Septic Services	1
+Childbirth Education	1
+Chicken Shop	1
+University Housing	1
+Fire Protection Services	1

@@ -1,0 +1,20 @@
+4bEjOyTaDG24SY5TxsaUNQ	Mon Ami Gabi	Las Vegas	Breakfast & Brunch	4.0	5642
+zt1TpTuJ6y9n551sw9TaEg	Wicked Spoon	Las Vegas	Buffets	3.5	4558
+2e2e7WgqU1BnpxmQL5jbfw	Earl of Sandwich	Las Vegas	Sandwiches	4.5	4452
+sIyHTizqAiGu12XMLX3N3g	Bacchanal Buffet	Las Vegas	Buffets	4.0	4390
+aGbjLWzcrnEx2ZmMCFm3EA	Gordon Ramsay BurGR	Las Vegas	Burgers	4.0	3811
+Xhg93cMdemu5pAMkDoEdtQ	Serendipity 3	Las Vegas	Food	3.0	3478
+YNQgak-ZLtYJQxlDwN-qIg	The Buffet	Las Vegas	Buffets	3.5	3281
+CZjcFdvJhksq9dy58NVEzw	The Buffet at Bellagio	Las Vegas	American (New)	3.5	3014
+QbmcCE_cLq4WO8ZMKImaLw	Hash House A Go Go	Las Vegas	Breakfast & Brunch	4.0	3014
+AtjsjFzalWqJ7S9DUFQ4bw	The Cosmopolitan of Las Vegas	Las Vegas	Hotels & Travel	4.0	2988
+tFU2Js_nbIZOrnKfYJYBBg	Bouchon at The Venetian	Las Vegas	Event Planning & Services	4.0	2922
+JpHE7yhMS5ehA9e8WG_ETg	ARIA Hotel & Casino	Las Vegas	Arts & Entertainment	3.5	2908
+lliksv-tglfUz1T3B3vgvA	Lotus of Siam	Las Vegas	Thai	4.0	2818
+eq6lQI039SBLC6sHm3idGA	Secret Pizza	Las Vegas	Pizza	4.0	2758
+xfwRO04KbAPw_zRotCfWQQ	Hash House A Go Go	Las Vegas	Breakfast & Brunch	4.0	2714
+Es300Ys1XXPYg8aI7BKVYQ	XS Nightclub	Las Vegas	Nightlife	4.0	2614
+6LM_Klmp3hOP0JmsMCKRqQ	Luxor Hotel And Casino Las Vegas	Las Vegas	Arts & Entertainment	2.5	2610
+jf67Z1pnwElRSXllpQHiJg	McCarran International Airport - LAS	Las Vegas	Hotels & Travel	3.5	2531
+eWPFXL1Bmu1ImtIa2Rqliw	MGM Grand Hotel	Las Vegas	Hotels & Travel	3.0	2457
+34uJtlPnKicSaX1V8_tu1A	The Venetian Las Vegas	Las Vegas	Arts & Entertainment	4.0	2444
