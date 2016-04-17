@@ -81,7 +81,7 @@ def best_business_cat(business_data,cat,n):
     cat_data = business_data.filter(lambda x: cat in x["categories"])
     bus = cat_data.map(lambda x: (x['business_id'],x['review_count']))
     counts = bus.map(lambda x : (x[1],x[0])).sortByKey(False).map(lambda x: (x[1],x[0])).take(n)
-    file_name = "best_"+n+"_business_"+cat".txt"
+    file_name = "best_"+n+"_business_"+cat+".txt"
     with open(file_name,'w') as fout:
         for (bus,count) in counts:
             fout.write("{}\t{}\n".format(bus,count))
@@ -103,8 +103,8 @@ if __name__ == "__main__":
 
     # Procedures starts
 
-    #group_by_city(business_data)
-    stats_on_city(business_data,1) 
+    group_by_city(business_data)
+    #stats_on_city(business_data,1) 
     #stats_on_cat(business_data)
     #best_business_all(business_data,20)
     #best_business_cat(business_data,cat,20)
