@@ -1,0 +1,412 @@
+Las Vegas	17423
+Phoenix	10629
+Charlotte	5189
+Scottsdale	5139
+Montréal	3891
+Pittsburgh	3337
+Edinburgh	3272
+Mesa	3190
+Henderson	2839
+Tempe	2773
+Chandler	2425
+Madison	2104
+Glendale	1823
+Gilbert	1716
+Peoria	929
+Karlsruhe	898
+North Las Vegas	819
+Surprise	587
+Champaign	462
+Goodyear	459
+Avondale	386
+Queen Creek	348
+Matthews	346
+Waterloo	262
+Urbana	262
+Fort Mill	238
+Cave Creek	229
+Middleton	208
+Laval	196
+Kitchener	188
+Pineville	184
+Casa Grande	181
+Fountain Hills	177
+Concord	161
+Apache Junction	157
+Maricopa	143
+Buckeye	131
+Anthem	123
+Fitchburg	123
+Sun Prairie	114
+Litchfield Park	110
+Sun City	106
+Verdun	95
+Paradise Valley	92
+Montreal	88
+Homestead	87
+Laveen	79
+Monona	79
+Tolleson	77
+San Tan Valley	76
+Wickenburg	71
+Saint-Laurent	71
+Belmont	71
+Verona	60
+Brossard	60
+Carnegie	57
+Ettlingen	55
+Westmount	53
+Carefree	51
+El Mirage	50
+Indian Trail	50
+Pointe-Claire	48
+Mint Hill	44
+Dorval	40
+Florence	40
+Lasalle	40
+Sun City West	40
+Waunakee	38
+Dollard-des-Ormeaux	37
+Dollard-Des-Ormeaux	37
+Boulder City	37
+Gold Canyon	34
+West Mifflin	33
+Huntersville	33
+Harrisburg	30
+Outremont	30
+Longueuil	28
+Youngtown	27
+Paradise	26
+Bellevue	24
+Saint-Leonard	22
+Lachine	22
+Gila Bend	20
+Coolidge	18
+Munhall	18
+Mount Holly	17
+De Forest	17
+Higley	16
+N Las Vegas	16
+Guadalupe	15
+Pierrefonds	15
+Nellis AFB	15
+Kirkland	15
+Cottage Grove	15
+Rheinstetten	14
+McKees Rocks	14
+Musselburgh	14
+Durmersheim	14
+Mc Farland	14
+Aspinwall	13
+Tega Cay	13
+Mont-Royal	13
+Savoy	13
+Mount Lebanon	13
+Eggenstein-Leopoldshafen	13
+Ahwatukee	13
+Sun Lakes	12
+West Homestead	12
+Bridgeville	12
+South Queensferry	12
+La Prairie	11
+Weingarten	11
+Pfinztal	10
+Stallings	10
+New River	10
+Saint-Lambert	10
+Anjou	10
+Mc Kees Rocks	10
+Cambridge	9
+McFarland	9
+Waldbronn	9
+Tonopah	9
+Wörth am Rhein	8
+Dalkeith	8
+Wilkinsburg	8
+Waddell	8
+Enterprise	8
+DeForest	8
+Windsor	8
+Sainte-Anne-De-Bellevue	7
+Karlsbad	7
+Indian Land	7
+Wesley Chapel	7
+Stutensee	7
+Fort McDowell	7
+Rio Verde	6
+Swissvale	6
+Las Vegas	6
+Lake Wylie	6
+Brentwood	6
+Rosemère	6
+Spring Valley	6
+Greenfield Park	6
+Crafton	6
+Dormont	6
+Loanhead	5
+Juniper Green	5
+Waxhaw	5
+Dravosburg	5
+Hagenbach	5
+Castle Shannon	5
+Boisbriand	5
+Saint-Eustache	5
+Heidelberg	5
+Old Town	4
+Morristown	4
+Mckees Rocks	4
+Millvale	4
+Clark	4
+Tonto Basin	4
+Beaconsfield	4
+St. Jacobs	4
+Saint-laurent	4
+Sharpsburg	4
+Scottdale	4
+Bietigheim	4
+Lasswade	4
+Bonnyrigg	4
+New Town	4
+St Jacobs	4
+Central City Village	3
+Clover	3
+Terrebonne	3
+Pointe-Aux-Trembles	3
+Braddock	3
+Leith	3
+Squirrel Hill	3
+Newbridge	3
+Rosemere	3
+Nellis Afb	3
+Sainte-Anne-de-Bellevue	3
+Firth of Forth	3
+Stockbridge	3
+Stoughton	3
+Mount Washington	3
+Queensferry	3
+Weingarten (Baden)	3
+Tortilla Flat	3
+Laveen Village	3
+Deforest	3
+Fort Mcdowell	3
+Oakland	3
+Shadyside	3
+LaSalle	3
+Weddington	3
+Black Canyon City	3
+Vimont	3
+Dollard-Des Ormeaux	3
+Bethel Park	3
+	2
+Edgewood	2
+Downtown	2
+Roxboro	2
+Québec	2
+L'Île-Bizard	2
+Summerlin	2
+N. Las Vegas	2
+Charlotte	2
+Arcadia	2
+Neuburg am Rhein	2
+North Queensferry	2
+LAS VEGAS	2
+Concord Mills	2
+Blainville	2
+Saint Laurent	2
+Mcfarland	2
+Montréal-Nord	2
+Boucherville	2
+phoenix	2
+glendale	2
+Lawrenceville	2
+Portobello	2
+Arlington	2
+City of Edinburgh	2
+Midlothian	2
+Chandler Heights	2
+Montreal-Nord	2
+Allentown	2
+Inverkeithing	2
+Cote-Saint-Luc	2
+Sainte-Thérèse	2
+Dane	2
+Bellvue	2
+Summerlin South	2
+Conestogo	2
+Rankin	2
+chandler	2
+Jockgrim	2
+East Mesa	2
+Pheonix	2
+Mt Lebanon	2
+South Las Vegas	2
+Wittmann	2
+Montreal-West	2
+Pointe Claire	1
+Mesa AZ	1
+Newington	1
+W Summerlin	1
+W Spring Valley	1
+Saint-Hubert	1
+MMRP	1
+Baie-D'urfe	1
+Nellis Air Force Base	1
+Central City	1
+Bocholt	1
+Rock Hill	1
+Sainte-Genevieve	1
+Cote Saint-Luc	1
+Green Tree	1
+Mirabel	1
+Banksville	1
+Milton Bridge	1
+Pittsburrgh	1
+Deux-Montagnes Regional County Municipality	1
+Meza	1
+Stanfield	1
+Cramond	1
+Columbus	1
+Mattews	1
+Blawnox	1
+Wörth	1
+C Las Vegas	1
+Surprise Crossing	1
+Ft. Mill	1
+Delmont	1
+East Liberty	1
+Brookline	1
+St Leonard	1
+Kennedy Township	1
+Kahnawake	1
+Fabreville	1
+Glendale Az	1
+Le Sud-Ouest	1
+Phoenix Sky Harbor Center	1
+Henderson NV	1
+Desert Ridge	1
+Deux-Montagnes	1
+Peoria	1
+Phoenix, AZ	1
+Central	1
+Stowe Township	1
+Victoria Park	1
+NELLIS AFB	1
+Sunnyslope	1
+Phoenix-Ahwatukee	1
+Communauté-Urbaine-de-Montréal	1
+Henderson and Las vegas	1
+London	1
+Sun City Anthem	1
+Southside Flats	1
+Breslau	1
+Upper Saint Clair	1
+Scotesdale	1
+Whitney	1
+Saint-Henri	1
+Cornwell Development	1
+Mathews	1
+Grand Canyon	1
+South Gyle	1
+Los Angeles	1
+Henderston	1
+Charlemagne	1
+Ingram	1
+Rockport	1
+Roslin	1
+Old Scottsdale	1
+Metro Phoenix	1
+Whitehall	1
+Stutensee-Blankenloch	1
+Dallas	1
+Saint Leonard	1
+Gilbert, AZ	1
+Centennial Hills	1
+Pittsburg	1
+Mascouche	1
+Pineville	1
+Bonnyrigg and Lasswade	1
+Water of Leith	1
+110. Las Vegas	1
+South Hills	1
+Etna	1
+Glibert	1
+Estrella Village	1
+Pittsburgh/S. Hills Galleria	1
+Eagan	1
+Mount Royal	1
+Lower Lawrenceville	1
+Dalgety Bay	1
+Sainte-Ann-De-Bellevue	1
+Lake Las Vegas	1
+New Dundee	1
+Edinburgh City of	1
+Montreal-Est	1
+Balerno	1
+Pittsburgh/Waterfront	1
+South Mountain	1
+N W Las Vegas	1
+University	1
+Forchheim	1
+Chateau	1
+Fort mill	1
+W Henderson	1
+Allegheny	1
+Litchfield Park	1
+St-Laurent	1
+St. Agatha	1
+L'Île-des-Soeurs	1
+Montéal	1
+Le Vieux-Port	1
+Nboulder City	1
+Phoenix	1
+Mt. Oliver Boro	1
+San Diego	1
+Ratho	1
+Sainte-Therese	1
+Montréal-Ouest	1
+Scotland	1
+Bruchsal	1
+Maricopa AZ	1
+Ahwatukee Foothills Village	1
+Locust	1
+Fort Kinnaird	1
+N E Las Vegas	1
+Central Henderson	1
+McAdenville	1
+North Las Vegas	1
+Golden Square Mile	1
+Glasgow	1
+Bloomfield	1
+rankin	1
+Bruntsfield	1
+Westworld Scottsdale	1
+Straiton	1
+North Carolina	1
+Oregon	1
+Sedona	1
+Burbank	1
+Ste-Rose	1
+Independence	1
+La Paz	1
+Green Valley	1
+Roosevelt	1
+Monroe	1
+Penicuik	1
+Île des Soeurs	1
+Shady Side	1
+Sunrise	1
+Las Vegas, NV	1
+City Center	1
+Goldfield	1
+Regent Square	1
+Robinson Township	1
+Mesa	1
+henderson	1
+Phoenix Metro Area	1
+Montreal-Ouest	1
+Tempe	1
+McKeesport	1
+Old Montreal	1
+Chandler-Gilbert	1
+North Scottsdale	1
+Queen Valley	1

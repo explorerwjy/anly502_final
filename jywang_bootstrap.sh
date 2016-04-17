@@ -12,7 +12,8 @@ sudo yum install -y git emacs
 
 # Configure git
 git config --global push.default simple
-
+git config --global user.email "explorerwjy@gmail.com"
+git config --global user.name "explorerwjy"
 
 # Upgrade pip and install mrjob
 sudo pip install mrjob                       # install mrjob
