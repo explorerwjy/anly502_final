@@ -49,7 +49,36 @@ def find_pattern(review_data):
     for business_id in id_list:
         find_pattern_by_business(review_data,business_id)
 
+# Find which words occurs most in high stars review
+def find_best_words(review_data,n):
+    review_data = review_data.filter(lambda x: float(x['stars']) >= 4.0)
+    review_text = review_data.map(lambda x: x['text'])
+    words = review_text.flatMap(lambda x: x.split(" ")).map(lambda word: filter (unicode.isalpha,word))
+    result = words.map(lambda x:(x,1)).reduceByKey(lambda x,y :x+y)
+    total = result.map(lambda x:("Total",x[1])).reduceByKey(lambda x,y:x+y)
+    result = result.map(lambda x:(x[1],x[0])).sortByKey(False).map(lambda x:(x[1],x[0]))
+    total = total.collect()
+    counts = result.take(n)
+    with open("good_words.txt",'w') as fout:
+        for k,v in total:
+            fout.write("{}\t{}\n".format(k,v))
+        for k,v in counts:
+            fout.write("{}\t{}\n".format(k,v))
 
+def find_worst_words(review_data,n):
+    review_data = review_data.filter(lambda x: float(x['stars']) <= 2.0)
+    review_text = review_data.map(lambda x: x['text'])
+    words = review_text.flatMap(lambda x: x.split(" ")).map(lambda word: filter (unicode.isalpha,word))
+    result = words.map(lambda x:(x,1)).reduceByKey(lambda x,y :x+y)
+    total = result.map(lambda x:("Total",x[1])).reduceByKey(lambda x,y:x+y)
+    result = result.map(lambda x:(x[1],x[0])).sortByKey(False).map(lambda x:(x[1],x[0]))
+    total = total.collect()
+    counts = result.take(n)
+    with open("bad_words.txt",'w') as fout:
+        for k,v in total:
+            fout.write("{}\t{}\n".format(k,v))
+        for k,v in counts:
+            fout.write("{}\t{}\n".format(k,v))
 if __name__ == "__main__":
 
     business_file =  's3://anly502-yelp/yelp_academic_dataset_business.json'
@@ -65,6 +94,12 @@ if __name__ == "__main__":
     review_data = sc.textFile(review_file).map(lambda x: json.loads(x))
 
     # Procedures starts
-    find_pattern(review_data)
+    
+    #find_pattern(review_data)
+
+    #find_best_words(review_data,200)
+    
+    find_worst_words(review_data,200)
+    
     # Procedures ends
     sc.stop()
