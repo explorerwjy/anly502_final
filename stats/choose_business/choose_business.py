@@ -97,9 +97,9 @@ if __name__ == "__main__":
     
     #find_pattern(review_data)
 
-    #find_best_words(review_data,200)
+    find_best_words(review_data,1000)
     
-    find_worst_words(review_data,200)
+    find_worst_words(review_data,1000)
     
     # Procedures ends
     sc.stop()
