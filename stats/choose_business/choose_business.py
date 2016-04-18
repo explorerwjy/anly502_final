@@ -24,12 +24,14 @@ def find_pattern_by_business(review_data,business_id):
 
 
     review_by_month_count = review_by_month.groupByKey()
-    count_by_month = review_by_month.map(lambda x: x[0],(len(x[1],avg_stars(x[1]))))#count the number of reviews by each month
-    count_by_month = review_by_month.sortByKey(True).collect()
+    count_by_month = review_by_month_count.map(lambda x: (x[0],(len(x[1]),avg_stars(x[1]))))#count the number of reviews by each month
+    count_by_month = count_by_month.sortByKey(True).collect()
+    print count_by_month[0:10]
     file_name = business_id+"_review_number_by_month.txt"
     with open(file_name,'w') as fout:
-        for (month,number,avg) in count_by_month:
-            fout.write("{}\t{}\t{}\n".format(month,number))
+        for (month,val) in count_by_month:
+            val1,val2 = val
+            fout.write("{}\t{}\t{}\n".format(month,val1,val2))
 
 def find_pattern(review_data):
     id_list = ['4bEjOyTaDG24SY5TxsaUNQ','zt1TpTuJ6y9n551sw9TaEg','2e2e7WgqU1BnpxmQL5jbfw']
