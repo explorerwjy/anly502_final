@@ -34,22 +34,38 @@ def get_data_according_to_list_file(bus_list_file,business_data,review_data,tip_
 	#filter business 
 	filtered_business_data = business_data.filter(lambda x:x["business_id"] in bus_list)
 	outputFile = make_name(bus_list_file,"business")
-	filtered_business_data.map(lambda x: json.dumps(x)).saveAsTextFile(outputFile)
+	save_business = filtered_business_data.map(lambda x: json.dumps(x)).collect()
+        with open(outputFile,'w') as fout:
+            for record in save_business:
+                fout.write(record+"\n")
+        fout.close()
 	#filter reviews
 	filtered_review_data = review_data.filter(lambda x:x["business_id"] in bus_list)
 	outputFile = make_name(bus_list_file,"reviews")
-	filtered_review_data.map(lambda x: json.dumps(x)).saveAsTextFile(outputFile)
+	save_review = filtered_review_data.map(lambda x: json.dumps(x)).collect()
+        with open(outputFile,'w') as fout:
+            for record in save_review:
+                fout.write(record+"\n")
+        fout.close()
 	#filter tips
 	filtered_tips_data = tip_data.filter(lambda x:x["business_id"] in bus_list)
 	outputFile = make_name(bus_list_file,"tips")
-	filtered_tips_data.map(lambda x: json.dumps(x)).saveAsTextFile(outputFile)
+	save_tip = filtered_tips_data.map(lambda x: json.dumps(x)).collect()
+        with open(outputFile,'w') as fout:
+            for record in save_tip:
+                fout.write(record+"\n")
+        fout.close()
 	#filter users, get from review and tip data
 	users_from_review = filtered_review_data.map(lambda x:x['user_id'])
 	users_from_tip = filtered_tips_data.map(lambda x:x['user_id'])
 	users = users_from_review.union(users_from_tip).distinct().collect()
 	filtered_data = user_data.filter(lambda x:x["user_id"] in users)
 	outputFile = make_name(bus_list_file,"users")
-	filtered_data.map(lambda x: json.dumps(x)).saveAsTextFile(outputFile)
+	save_user = filtered_data.map(lambda x: json.dumps(x)).collect()
+        with open(outputFile,'w') as fout:
+            for record in save_user:
+                fout.write(record+"\n")
+        fout.close()
 
 # constrct dictionary for top [n] positive reviews/negative reviews
 # Find which words occurs most in high stars review
@@ -82,10 +98,10 @@ def get_words(review_data,num_dic,num_sample):
 	distinct_negetive = distinct_negetive.take(num_dic)
 	with open("good_words.txt",'w') as fout:
             for word in distinct_positive:
-                fout.write("{}\n".format(k,v))
+                fout.write("{}\n".format(word.encode("utf-8")))
         with open("bad_words.txt",'w') as fout:
             for word in distinct_negetive:
-                fout.write("{}\n".format(k,v))
+                fout.write("{}\n".format(word.encode("utf-8")))
 	
 
 #construct training data and output csv file
@@ -130,12 +146,12 @@ def group_review_by_time(x):
 			make_record(review,time_diction[review[0]])
 	time_diction = time_diction.items()
 	time_data = [] #year_month,sum_of_last_three_month([#total,#5star,#4star,#3star,#2star,#1star])
-	for i in xrange(3,len(time_diction)):
-		last_three = [[time_diction[i-1][1],[time_diction[i-2][1],[time_diction[i-3][1]]]]]
-		record = (time_diction[i][0],combine_record(last_three))
+	for i in xrange(0,len(time_diction)):
+		#last_three = [[time_diction[i-1][1],[time_diction[i-2][1],[time_diction[i-3][1]]]]]
+		record = (time_diction[i][0],time_diction[i][1])
 		time_data.append(record)
-
-	x[1] = time_date
+        time_data = sorted(time_data)
+        return time_data
 
 # seems only need review dataset
 def construct_training_data_v1(business_file,user_file,review_file,tip_file):
@@ -146,8 +162,9 @@ def construct_training_data_v1(business_file,user_file,review_file,tip_file):
     tip_data = sc.textFile(tip_file).map(lambda x: json.loads(x))
     #business = business_data.map(lambda x: (x['business_id']))
     review = review_data.map(lambda x:(x['business_id'],(x['date'][0:7],x['text'],x['stars'],x['user_id'])))
-    data = review.groupBykey()
-    data = data.map(lambda x :(x[0],group_review_by_time(x))) 
+    data = review.groupByKey()
+    data = data.map(lambda x :(x[0],group_review_by_time(x),len(x[1])))
+    data = data.map(lambda x : (x[1][-1],x)).sortByKey(False).map(lambda x: (x[1][0],x[1][1]))
     data = data.flatMapValues(lambda x:x).collect()
     #data format : business_id,(year_month,[#total,#5star,#4star,#3star,#2star,#1star])
 
@@ -180,14 +197,15 @@ if __name__ == "__main__":
 
     # Procedures starts
     #fileanme = get_business_list(1000,"Restaurants","Las Vegas",business_data)
-    filename = "best_1000_Restaurants_in_Las_Vegas.txt"
-    get_data_according_to_list_file(filename,business_data,review_data,tip_data,user_data)
+    #filename = "best_1000_Restaurants_in_Las_Vegas.txt"
+    #get_data_according_to_list_file(filename,business_data,review_data,tip_data,user_data)
+    #review_sub_data = sc.textFile("best_1000_Restaurants_in_Las_Vegas_reviews.json").map(lambda x: json.loads(x))
     #get_words(review_data,500,5000000)
 
 
 
     #Traning data for model v1
-    #construct_training_data_v1(business_file,user_file,review_file,tip_file)
+    construct_training_data_v1(business_file,user_file,review_file,tip_file)
 
     # Procedures ends
     sc.stop()
