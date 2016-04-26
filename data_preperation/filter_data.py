@@ -205,6 +205,11 @@ if __name__ == "__main__":
 
 
     #Traning data for model v1
+    business_file = "best_1000_Restaurants_in_Las_Vegas_business.json"
+    user_file = "best_1000_Restaurants_in_Las_Vegas_users.json"
+    review_file = "best_1000_Restaurants_in_Las_Vegas_reviews.json"
+    tip_file = "best_1000_Restaurants_in_Las_Vegas_tips.json"
+    
     construct_training_data_v1(business_file,user_file,review_file,tip_file)
 
     # Procedures ends
