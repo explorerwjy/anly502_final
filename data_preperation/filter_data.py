@@ -93,9 +93,9 @@ def find_worst_words(review_data,n):
     counts = result.take(n)
     return counts
 
-def get_words(review_data,num_dic,num_sample):
-	positive = find_best_words(review_data,num_sample)
-	negetive = find_worst_words(review_data,num_sample)
+def get_words(review_data,length,num_dic,num_sample):
+	positive = find_best_words(length,review_data,num_sample)
+	negetive = find_worst_words(length,review_data,num_sample)
 	positive = sc.parallelize(positive).map(lambda x:x[0])
 	negetive = sc.parallelize(negetive).map(lambda x:x[0])
 	distinct_positive = positive.subtract(negetive)
@@ -202,21 +202,21 @@ if __name__ == "__main__":
     tip_data = sc.textFile(tip_file).map(lambda x: json.loads(x))
 
     # Procedures starts
-    #fileanme = get_business_list(1000,"Restaurants","",business_data)
-    filename = "best_1000_Restaurants_in_All.txt"
+    #fileanme = get_business_list(1000,"Restaurants","Las Vegas",business_data)
+    #filename = "best_1000_Restaurants_in_All.txt"
     #get_data_according_to_list_file(filename,business_data,review_data,tip_data,user_data)
-    #review_sub_data = sc.textFile("best_1000_Restaurants_in_All_reviews.json").map(lambda x: json.loads(x))
-    #get_words(review_sub_data,500,50000)
+    review_sub_data = sc.textFile("best_1000_Restaurants_in_All_reviews.json").map(lambda x: json.loads(x))
+    get_words(review_sub_data,1,500,5000)
 
 
 
     #Traning data for model v1
-    business_file = "s3://anly502-yelp/best_1000_Restaurants_in_All_business.json"
-    user_file = "s3://anly502-yelp/best_1000_Restaurants_in_All_users.json"
-    review_file = "s3://anly502-yelp/best_1000_Restaurants_in_All_reviews.json"
-    tip_file = "s3://anly502-yelp/best_1000_Restaurants_in_All_tips.json"
+    business_file = "s3://anly502-yelp/best_1000_Restaurants_in_Las_Vegas_business.json"
+    user_file = "s3://anly502-yelp/best_1000_Restaurants_in_Las_Vegas_users.json"
+    review_file = "s3://anly502-yelp/best_1000_Restaurants_in_Las_Vegas_reviews.json"
+    tip_file = "s3://anly502-yelp/best_1000_Restaurants_in_Las_Vegas_tips.json"
     
-    construct_training_data_v1(business_file,user_file,review_file,tip_file)
+    #construct_training_data_v1(business_file,user_file,review_file,tip_file)
 
     # Procedures ends
     sc.stop()

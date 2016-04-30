@@ -6,6 +6,8 @@
 import sys
 from pyspark import SparkContext
 import json
+import string
+from string import translate
 
 # Calculate average stars given a review list
 def avg_stars(review_list):
@@ -49,32 +51,41 @@ def find_pattern(review_data):
     for business_id in id_list:
         find_pattern_by_business(review_data,business_id)
 
+def split_len_word(line,length):
+    remove_punctuation_map = dict((ord(char), None) for char in string.punctuation)
+    line = line.translate(remove_punctuation_map).lower()
+    word_list = line.split(" ")
+    res = []
+    for i in xrange(0,len(word_list)-length+1):
+        res.append(" ".join(word_list[i:i+length]))
+    return res
+
 # Find which words occurs most in high stars review
-def find_best_words(review_data,n):
+def find_best_words(review_data,n,length):
     review_data = review_data.filter(lambda x: float(x['stars']) >= 4.0)
     review_text = review_data.map(lambda x: x['text'])
-    words = review_text.flatMap(lambda x: x.split(" ")).map(lambda word: filter (unicode.isalpha,word))
+    words = review_text.flatMap(lambda x:split_len_word(x,length))
     result = words.map(lambda x:(x,1)).reduceByKey(lambda x,y :x+y)
     total = result.map(lambda x:("Total",x[1])).reduceByKey(lambda x,y:x+y)
     result = result.map(lambda x:(x[1],x[0])).sortByKey(False).map(lambda x:(x[1],x[0]))
     total = total.collect()
     counts = result.take(n)
-    with open("good_words.txt",'w') as fout:
+    with open("good_words_"+str(length)+".txt",'w') as fout:
         for k,v in total:
             fout.write("{}\t{}\n".format(k,v))
         for k,v in counts:
             fout.write("{}\t{}\n".format(k,v))
 
-def find_worst_words(review_data,n):
+def find_worst_words(review_data,n,length):
     review_data = review_data.filter(lambda x: float(x['stars']) <= 2.0)
     review_text = review_data.map(lambda x: x['text'])
-    words = review_text.flatMap(lambda x: x.split(" ")).map(lambda word: filter (unicode.isalpha,word))
+    words = review_text.flatMap(lambda x:split_len_word(x,length))
     result = words.map(lambda x:(x,1)).reduceByKey(lambda x,y :x+y)
     total = result.map(lambda x:("Total",x[1])).reduceByKey(lambda x,y:x+y)
     result = result.map(lambda x:(x[1],x[0])).sortByKey(False).map(lambda x:(x[1],x[0]))
     total = total.collect()
     counts = result.take(n)
-    with open("bad_words.txt",'w') as fout:
+    with open("bad_words_"+str(length)+".txt",'w') as fout:
         for k,v in total:
             fout.write("{}\t{}\n".format(k,v))
         for k,v in counts:
@@ -97,9 +108,9 @@ if __name__ == "__main__":
     
     #find_pattern(review_data)
 
-    find_best_words(review_data,1000)
+    find_best_words(review_data,1000,3)
     
-    find_worst_words(review_data,1000)
+    find_worst_words(review_data,1000,3)
     
     # Procedures ends
     sc.stop()
