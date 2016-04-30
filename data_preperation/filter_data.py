@@ -7,11 +7,17 @@ import json
 
 # get the list of business that are top [N] [category] business from [city] with most reviews
 def get_business_list(num,category,city,business_data):
-    cat_data = business_data.filter(lambda x: (category in x["categories"]) and (city in x["city"]))
+    if city != "":
+        cat_data = business_data.filter(lambda x: (category in x["categories"]) and (city in x["city"]))
+    else:
+        cat_data = business_data.filter(lambda x: (category in x["categories"]))
     bus = cat_data.map(lambda x: (x,x['review_count']))
     counts = bus.map(lambda x : (x[1],x[0])).sortByKey(False).map(lambda x: (x[1],x[0]))
     counts = counts.map(lambda x: (x[0]["business_id"],x[0]["name"],x[0]["stars"],x[1])).take(num)
-    city_name = "_".join(city.split())
+    if city != "":
+        city_name = "_".join(city.split())
+    else:
+        city_name = "All"
     file_name = "best_"+str(num)+"_"+category+"_in_"+city_name+".txt"
     with open(file_name,'w') as fout:
         for (bus,name,stars,count) in counts:
@@ -119,8 +125,8 @@ def make_record(review,record):
 	star = int(review[2])
 	if star == 5:record[1] += 1
 	elif star == 4:record[2] += 1
-	elif star == 4:record[3] += 1
-	elif star == 4:record[4] += 1
+	elif star == 3:record[3] += 1
+	elif star == 2:record[4] += 1
 	else:record[5] += 1
 #design for combine last three month of record for a month's record
 def combine_record(record_list):
@@ -196,19 +202,19 @@ if __name__ == "__main__":
     tip_data = sc.textFile(tip_file).map(lambda x: json.loads(x))
 
     # Procedures starts
-    #fileanme = get_business_list(1000,"Restaurants","Las Vegas",business_data)
-    #filename = "best_1000_Restaurants_in_Las_Vegas.txt"
+    #fileanme = get_business_list(1000,"Restaurants","",business_data)
+    filename = "best_1000_Restaurants_in_All.txt"
     #get_data_according_to_list_file(filename,business_data,review_data,tip_data,user_data)
-    #review_sub_data = sc.textFile("best_1000_Restaurants_in_Las_Vegas_reviews.json").map(lambda x: json.loads(x))
-    #get_words(review_data,500,5000000)
+    #review_sub_data = sc.textFile("best_1000_Restaurants_in_All_reviews.json").map(lambda x: json.loads(x))
+    #get_words(review_sub_data,500,50000)
 
 
 
     #Traning data for model v1
-    business_file = "best_1000_Restaurants_in_Las_Vegas_business.json"
-    user_file = "best_1000_Restaurants_in_Las_Vegas_users.json"
-    review_file = "best_1000_Restaurants_in_Las_Vegas_reviews.json"
-    tip_file = "best_1000_Restaurants_in_Las_Vegas_tips.json"
+    business_file = "s3://anly502-yelp/best_1000_Restaurants_in_All_business.json"
+    user_file = "s3://anly502-yelp/best_1000_Restaurants_in_All_users.json"
+    review_file = "s3://anly502-yelp/best_1000_Restaurants_in_All_reviews.json"
+    tip_file = "s3://anly502-yelp/best_1000_Restaurants_in_All_tips.json"
     
     construct_training_data_v1(business_file,user_file,review_file,tip_file)
 

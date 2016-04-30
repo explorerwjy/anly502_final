@@ -7,8 +7,6 @@
 
 cd /home/hadoop
 
-# Install yum packages we want
-sudo yum install -y git emacs
 
 # Configure git
 git config --global push.default simple
@@ -16,10 +14,10 @@ git config --global user.email "explorerwjy@gmail.com"
 git config --global user.name "explorerwjy"
 
 # Upgrade pip and install mrjob
-sudo pip install mrjob                       # install mrjob
-sudo easy_install ipython==1.2.1             # grab ipython
 sudo pip install --upgrade pip               # moves /usr/bin/pip to /usr/local/bin
 sudo ln /usr/local/bin/pip /usr/bin/pip      # hardlink to the old location
+sudo pip install mrjob                       # install mrjob
+sudo easy_install ipython==1.2.1             # grab ipython
 
 # 
 if [ ! -e .bashrc-DIST ]; then
@@ -57,14 +55,5 @@ runners:
     strict_protocols: true
 EOF
 fi
-
-## Install the pig tutorial
-if [ ! -d pigtutorial ]; then
-  wget --quiet 'https://cwiki.apache.org/confluence/download/attachments/27822259/pigtutorial.tar.gz'
-  tar xfvz pigtutorial.tar.gz
-  mv pigtmp pigtutorial
-  rm pigtutorial.tar.gz
-fi
-
 
 
