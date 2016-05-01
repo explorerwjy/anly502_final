@@ -21,7 +21,7 @@ def split_len_word(line,length,remove_punctuation_map):
     return res
 
 # Find which words occurs most in high stars review
-def find_best_words(review_data,n,length):
+def find_best_words(review_data,n,length,cat):
     review_data = review_data.filter(lambda x: float(x['stars']) >= 4.0)
     review_text = review_data.map(lambda x: x['text'])
     punctuations='!"#$%&\'()*+,./:;<=>?@[\\]^_`{|}~'
@@ -32,13 +32,13 @@ def find_best_words(review_data,n,length):
     result = result.map(lambda x:(x[1],x[0])).sortByKey(False).map(lambda x:(x[1],x[0]))
     total = total.collect()
     counts = result.take(n)
-    with open("good_words_"+str(length)+".txt",'w') as fout:
+    with open(cat+"_good_words_"+str(length)+".txt",'w') as fout:
         for k,v in total:
-            fout.write("{}\t{}\n".format(k,v))
+            fout.write("{}\t{}\n".format(k.encode('utf-8'),v))
         for k,v in counts:
-            fout.write("{}\t{}\n".format(k,v))
+            fout.write("{}\t{}\n".format(k.encode('utf-8'),v))
 
-def find_worst_words(review_data,n,length):
+def find_worst_words(review_data,n,length,cat):
     review_data = review_data.filter(lambda x: float(x['stars']) <= 2.0)
     review_text = review_data.map(lambda x: x['text'])
     punctuations='!"#$%&\'()*+,./:;<=>?@[\\]^_`{|}~'
@@ -49,15 +49,17 @@ def find_worst_words(review_data,n,length):
     result = result.map(lambda x:(x[1],x[0])).sortByKey(False).map(lambda x:(x[1],x[0]))
     total = total.collect()
     counts = result.take(n)
-    with open("bad_words_"+str(length)+".txt",'w') as fout:
+    with open(cat+"_bad_words_"+str(length)+".txt",'w') as fout:
         for k,v in total:
-            fout.write("{}\t{}\n".format(k,v))
+            fout.write("{}\t{}\n".format(k.encode('utf-8'),v))
         for k,v in counts:
-            fout.write("{}\t{}\n".format(k,v))
+            fout.write("{}\t{}\n".format(k.encode('utf-8'),v))
 
-def wordcount(review_data,n,length):
-    find_best_words(review_data,n,length)
-    find_worst_words(review_data,n,length)
+def wordcount(review_data,n,length,cat):
+    if cat != 'All':
+        review_data = review_data.filter(lambda x: cat in x['categories'])
+    find_best_words(review_data,n,length,cat)
+    find_worst_words(review_data,n,length,cat)
 
 ###########################################################################################
 # Construct a word list of positive words and negetive words
@@ -79,8 +81,8 @@ def text_to_point(x,pos_dic,neg_dic,remove_punctuation_map):
     
 
 def wordmap(review_data):
-    pos_dic_file =  's3://anly502-yelp/positive-words.txt'
-    neg_dic_file =  's3://anly502-yelp/negative-words.txt'
+    pos_dic_file =  'positive-words.txt'
+    neg_dic_file =  'negative-words.txt'
     #construct the dictionary
     pos_dic = {}
     neg_dic = {}
@@ -118,9 +120,10 @@ if __name__ == "__main__":
     review_data = sc.textFile(review_file).map(lambda x: json.loads(x))
 
     # Procedures starts
-    
-    #wordcount(review_data,1000,3)
-    wordmap(review_data)
+    cat = "Restaurants"
+    cat = "All"
+    wordcount(review_data,2000,1,cat)
+    #wordmap(review_data)
 
 
     
