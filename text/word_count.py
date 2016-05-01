@@ -90,12 +90,14 @@ def text_to_point(x,pos_dic,neg_dic,remove_punctuation_map):
     neg_words_num = 0
     total_words_num = len(words)
     review_star = x['stars']
-    for i in xrange(0:len(words)):
+    nots = ['not','no','never','seldom','nothing','hardly']
+    for i in xrange(0,len(words)):
         if words[i] in pos_dic:
-            if (i >=1) and (words[i-1] in ['not','no','never']):
+            if (i >=3) and ((words[i-1] in nots) or (words[i-2] in nots) or (words[i-3] in nots) ):
                 neg_words_num += 1
-            pos_words_num += 1
-        if word in neg_dic:
+            else:
+                pos_words_num += 1
+        if words[i] in neg_dic:
             neg_words_num += 1
     return (review_star,pos_words_num,neg_words_num,total_words_num)
     

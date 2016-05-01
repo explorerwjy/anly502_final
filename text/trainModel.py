@@ -1,10 +1,15 @@
+#!/usr/bin/spark-submit
+
+from pyspark import SparkContext
 from pyspark.mllib.regression import LabeledPoint
 from pyspark.mllib.feature import HashingTF
 from pyspark.mllib.tree import RandomForest, RandomForestModel
 from pyspark.mllib.util import MLUtils
 
 # Load and parse the data file into an RDD of LabeledPoint.
-data = MLUtils.loadLibSVMFile(sc, 's3://anly502-yelp/regression_review_text_v3')
+sc     = SparkContext( appName="Train model" )
+
+data = MLUtils.loadLibSVMFile(sc, 's3://anly502-yelp/format_regression_review_text_v3')
 
 print data.take(10)
 # Split the data into training and test sets (30% held out for testing)
@@ -14,7 +19,7 @@ print data.take(10)
 #  Empty categoricalFeaturesInfo indicates all features are continuous.
 #  Note: Use larger numTrees in practice.
 #  Setting featureSubsetStrategy="auto" lets the algorithm choose.
-model = RandomForest.trainClassifier(trainingData, numClasses=2, categoricalFeaturesInfo={},
+model = RandomForest.trainClassifier(trainingData, numClasses=6, categoricalFeaturesInfo={},
                                      numTrees=3, featureSubsetStrategy="auto",
                                      impurity='gini', maxDepth=4, maxBins=32)
 
