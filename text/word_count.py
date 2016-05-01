@@ -73,6 +73,13 @@ def wordcount(business_data,review_data,n,length,cat):
     find_worst_words(review_data,n,length,cat)
 
 ###########################################################################################
+# Contruct dictionary of good words & bad words according to word count results
+###########################################################################################
+def contruct_dictionary():
+    good_words_file = open("",'r')
+    bad_words_file = open("",'r')
+
+###########################################################################################
 # Construct a word list of positive words and negetive words
 # # stars in a Yelp review on # positive words, # negative words, and # words in review
 ###########################################################################################
@@ -83,8 +90,10 @@ def text_to_point(x,pos_dic,neg_dic,remove_punctuation_map):
     neg_words_num = 0
     total_words_num = len(words)
     review_star = x['stars']
-    for word in words:
-        if word in pos_dic:
+    for i in xrange(0:len(words)):
+        if words[i] in pos_dic:
+            if (i >=1) and (words[i-1] in ['not','no','never']):
+                neg_words_num += 1
             pos_words_num += 1
         if word in neg_dic:
             neg_words_num += 1
@@ -133,8 +142,10 @@ if __name__ == "__main__":
     # Procedures starts
     cat = "Restaurants"
     cat = "All"
-    wordcount(business_data,review_data,2000,4,cat)
-    #wordmap(review_data)
+    #wordcount(business_data,review_data,2000,4,cat)
+
+
+    wordmap(review_data)
 
 
     
