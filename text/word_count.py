@@ -28,7 +28,7 @@ def find_best_words(review_data,n,length,cat):
     remove_punctuation_map = dict((ord(char), None) for char in punctuations)
     words = review_text.flatMap(lambda x:split_len_word(x,length,remove_punctuation_map))
     result = words.map(lambda x:(x,1)).reduceByKey(lambda x,y :x+y)
-    total = result.map(lambda x:("Total",x[1])).reduceByKey(lambda x,y:x+y)
+    #total = result.map(lambda x:("Total",x[1])).reduceByKey(lambda x,y:x+y)
     result = result.map(lambda x:(x[1],x[0])).sortByKey(False).map(lambda x:(x[1],x[0]))
     total = total.collect()
     counts = result.take(n)
@@ -45,18 +45,29 @@ def find_worst_words(review_data,n,length,cat):
     remove_punctuation_map = dict((ord(char), None) for char in punctuations)
     words = review_text.flatMap(lambda x:split_len_word(x,length,remove_punctuation_map))
     result = words.map(lambda x:(x,1)).reduceByKey(lambda x,y :x+y)
-    total = result.map(lambda x:("Total",x[1])).reduceByKey(lambda x,y:x+y)
+    #total = result.map(lambda x:("Total",x[1])).reduceByKey(lambda x,y:x+y)
     result = result.map(lambda x:(x[1],x[0])).sortByKey(False).map(lambda x:(x[1],x[0]))
-    total = total.collect()
+    #total = total.collect()
     counts = result.take(n)
     with open(cat+"_bad_words_"+str(length)+".txt",'w') as fout:
         for k,v in total:
             fout.write("{}\t{}\n".format(k.encode('utf-8'),v))
         for k,v in counts:
             fout.write("{}\t{}\n".format(k.encode('utf-8'),v))
+# add categorites to review by joined business data
+def add_cat(x):
+    review = x[1][0]
+    categories = x[1][1]
+    review["categories"]=categories
+    return review
 
-def wordcount(review_data,n,length,cat):
+def wordcount(business_data,review_data,n,length,cat):
     if cat != 'All':
+        #join the review_data and business_data to get categorites
+        business_data = business_data.map(lambda x:(x['business_id'],x['categories']))
+        review_data = review_data.map(lambda x:(x['business_id'],x))
+        review_data = review_data.join(business_data)
+        rebiew_data = review_data.map(lambda x: add_cat(x))
         review_data = review_data.filter(lambda x: cat in x['categories'])
     find_best_words(review_data,n,length,cat)
     find_worst_words(review_data,n,length,cat)
@@ -122,7 +133,7 @@ if __name__ == "__main__":
     # Procedures starts
     cat = "Restaurants"
     cat = "All"
-    wordcount(review_data,2000,1,cat)
+    wordcount(business_data,review_data,2000,4,cat)
     #wordmap(review_data)
 
 
