@@ -1,8 +1,9 @@
+#!/usr/bin/python
+from sys import argv
 
-
-if __name__=="__main__":
-    file1 = open("good_words_2.txt",'r')
-    file2 = open("bad_words_2.txt",'r')
+def del_same(input1,input2,output1,output2):
+    file1 = open(input1,'r')
+    file2 = open(input2,'r')
     dic1 = {}
     dic2 = {}
     for line in file1:
@@ -26,11 +27,22 @@ if __name__=="__main__":
             if k not in dic1:
                     dic2_new[k] = v
 
-    with open("filtered_good_words_2.txt",'w') as fout1:
+    with open(output1,'w') as fout1:
             list1 = sorted(dic1_new.items(),key=lambda p:p[1])
             for k,v in list1:
-                    fout1.write("{}\t{}\n".format(k,v))
-    with open("filtered_bad_words_2.txt",'w') as fout1:
+                    fout1.write("{}:{}\n".format(k,v))
+    with open(output2,'w') as fout1:
             list2 = sorted(dic2_new.items(),key=lambda p:p[1])
             for k,v in list2:
-                    fout1.write("{}\t{}\n".format(k,v))
+                    fout1.write("{}:{}\n".format(k,v))
+
+def main():
+    input1 = argv[1]
+    input2 = argv[2]
+    output1 = "filtered_"+input1
+    output2 = "filtered_"+input2
+    del_same(input1,input2,output1,output2)
+
+if __name__=="__main__":
+    main()
+    
