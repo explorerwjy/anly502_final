@@ -22,4 +22,4 @@ data need for text classification
 generate training data for number of review predition 
 
 ./R
-
+This directory contains R file to do review number analysis and a python file to prepare data for it.
